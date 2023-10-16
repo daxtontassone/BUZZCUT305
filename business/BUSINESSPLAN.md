@@ -42,3 +42,23 @@
 - Pull in new customers through positive interaction on Buzzcut and user recommendations through posting their own cuts at Robert’s shop
 - Buzzcut provides a wealthy selection of new-age haircuts along with others and their instructions provided by other - barbers, allowing for a customer to choose their cut and Robert to cut hair with ease
 - Feel free to post your haircut pictures, tag your barber shop, instructions and let it sit! Buzzcut will allow others to view and interact with your post without you worrying!
+
+## Younger Barbers
+### Sketch/Name:
+* Connor
+* 22 year old male
+* Studied cosmetology and wants to persue hair cutting as a business
+### Pain Points/Needs:
+* Doesn't have enough money to purchase advertisements
+* Not enough starter influence
+* Other social media's are too saturated to pull their target audience
+### Demographic Info:
+* Male
+* Around 22 to 30 years old
+* Much less net worth than older businesses
+* Knows more current hairstyles as compared to older barbers
+* Knows how to use social media
+### Solutions:
+* Buzzcut stays at a low cost
+* Buzzcut will give each user the opportunity to gain likes and followers to create a virtual influence, thus gaining more business revenue
+* Buzzcut is a dedicated haircut social media, therefore more users will be interested in his business as compared to other  social medias
