@@ -150,4 +150,4 @@ For answers to common questions about this code of conduct, see the FAQ at
 ![Andrew Campbell](src/campbellSignature.png)
 ![Jacob Dauphinais](src/dauphinaisSignature.png)
 ![Daxton Tassone](src/DaxtonTassone_signature.png)
-![Luca Spinella](src/LucaSignature.png)
+![Luca Spinella](src/lucaSignature.png)
