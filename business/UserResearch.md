@@ -22,3 +22,15 @@
 
 ### Team Action (if any):
 - This data reinforces the need for Buzzcut. Only half of all responders who go to the barber leave the shop satisfied. We believe Buzzcut will increase satisfaction rates among customers.
+
+## Observation 3: 
+### Observation Statement: majority of survey respondents don’t look for haircut inspiration when getting a haircut
+
+### Supporting Data:
+- 16.7% never
+- 50% rarely
+- 16.7% sometimes
+- 16.7% somewhat often
+
+### Team Action (if any):
+This data provides support for the creation of Buzzcut, as it would provide more preparation and give people new ideas on what to do next time they go to the barber.
