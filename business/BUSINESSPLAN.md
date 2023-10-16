@@ -62,3 +62,25 @@
 * Buzzcut stays at a low cost
 * Buzzcut will give each user the opportunity to gain likes and followers to create a virtual influence, thus gaining more business revenue
 * Buzzcut is a dedicated haircut social media, therefore more users will be interested in his business as compared to other  social medias
+
+## College Males
+### Sketch/Name:
+- 21 year old male, Matt
+- Studies computer science and gets haircut at the barber monthly
+
+### Pain Points/Needs:
+- Wants to try a new haircut but don’t know what
+- Afraid to try new haircut
+- Always leave the barbershop unsatisfied
+- Not sure which barbershop to try
+### Demographic Info:
+- College age
+- Male
+- Social Media Users
+- Goes to barber
+
+### Solutions:
+- Buzzcut showcases tons of different haircut ideas
+- Each haircut comes with images + instructions / specifications to show your barber
+- Haircuts have the location of the barbershop tagged
+
