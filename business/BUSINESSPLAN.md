@@ -1,4 +1,4 @@
-[view google slides](https://docs.google.com/presentation/d/1DxvoVrO8xd_DrNXjdj0St7RpeYguOj57kJafkGU8HhE/edit?usp=sharing)
+[View Google Slides for Lean Canvas](https://docs.google.com/presentation/d/1DxvoVrO8xd_DrNXjdj0St7RpeYguOj57kJafkGU8HhE/edit?usp=sharing)
 
 
 # Persona Grids
