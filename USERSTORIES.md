@@ -30,6 +30,20 @@ ACCEPTANCE CRITERIA:
 - Users can search for barber shops using Google Maps API
 - Users can view any accounts linked to the barber shop
 
+### US5
+ AS A General User, I WANT TO be able to filter posts by varying criteria TO make sure I can find the post I want.
+ACCEPTANCE CRITERIA:
+- A user can select tags to narrow down their search
+- A user can see multiple posts based on their search criteria
+- A user can take tags out of their post list
+
+### US6
+AS A General User, I WANT TO be able to add tags to my posts TO advertise toward a specific audience on the app.
+ACCEPTANCE CRITERIA:
+- A user can share images and descriptions of their haircut
+- A user can add tags to their post to act as a filter
+- A user can tailor their account to certain audiences who enjoy their work
+
 ### US7
 AS AN Administrator, I WANT TO be able to delete users who are not using Buzzcut as intended.
 
