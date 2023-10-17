@@ -1,3 +1,17 @@
+# Lean Canvas Business Plan
+The [lean canvas business plan](https://www.leancanvas.com) is a 1-page plan that lays out the product in different sections:
+- Problem: What are some problems your intended customers experience?
+- Solution: What are some general solutions to those problems?
+- Key Metrics: What are the key metrics displayed in your product?
+- Unique Value Proposition: A sentence or two long description of your product that is easy to digest.
+- Advantage: Who are some competitors to your product? How is your product different from them?
+- Channels: How will your product reach customers?
+- Customer Segments: Who are some of your intended users? Who are the early adopters of your product?
+- Cost Structure: What are the expenses of the product creation and running after creation?
+- Revenue Streams: What are some revenue streams that can fund the product's creation and continued running?
+
+The lean canvas of Buzzcut (linked below) explores the design of the lean canvas as previously stated, with information taken from our user survey used to determine metrics and our customer segments, as well as revenue streams and the cost structure of our application.
+
 [View Google Slides for Lean Canvas](https://docs.google.com/presentation/d/1DxvoVrO8xd_DrNXjdj0St7RpeYguOj57kJafkGU8HhE/edit?usp=sharing)
 
 # Persona Grids
