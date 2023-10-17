@@ -15,6 +15,21 @@ ACCEPTANCE CRITERIA:
 - A user can post a haircut and description
 - A user can delete a post
 
+### US3
+As a General User, I want to see other users' posts.
+
+ACCEPTANCE CRITERIA: 
+- Users can see other users posts on the homepage
+- Users can view others users posts on their account pages
+- Users can scroll through multiple posts
+
+### US4
+As a General User, I want to be able to see local barber shops and their posted works.
+
+ACCEPTANCE CRITERIA: 
+- Users can search for barber shops using Google Maps API
+- Users can view any accounts linked to the barber shop
+
 ### US7
 AS AN Administrator, I WANT TO be able to delete users who are not using Buzzcut as intended.
 
