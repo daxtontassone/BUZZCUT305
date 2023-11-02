@@ -1,4 +1,5 @@
 {
+    "id": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -134,14 +135,14 @@
                 "TextColor": "#FFFFFF",
                 "FontSize": 16,
                 "CustomFont": "",
-                "BackgroundColor": "rgba(93, 122, 252, 100)",
-                "Height": 42,
-                "Width": 129,
+                "BackgroundColor": "rgba(41, 98, 255, 1)",
+                "Height": 40,
+                "Width": 130,
                 "Visible": true,
-                "X": 123,
-                "Y": 602,
-                "RelativeX": 123,
-                "RelativeY": 602,
+                "X": 121,
+                "Y": 606,
+                "RelativeX": 121,
+                "RelativeY": 606,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -172,7 +173,8 @@
                 "Disabled": false,
                 "ParentId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94",
                 "position": "absolute",
-                "edgeOffsets": 602
+                "edgeOffsets": 606,
+                "Font": "Roboto"
             },
             "children": [],
             "id": "2172d57b-d942-4d8c-b63e-ffc5aec4f1b7",
@@ -184,7 +186,7 @@
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "DESCRIPTION",
+                "Text": "",
                 "FontSize": 18,
                 "CustomFont": "",
                 "LineHeight": 1,
@@ -273,14 +275,14 @@
                 "Height": 334,
                 "Width": 323,
                 "Visible": true,
-                "X": 26,
-                "Y": 252,
-                "RelativeX": 26,
-                "RelativeY": 252,
+                "X": 24,
+                "Y": 257,
+                "RelativeX": 24,
+                "RelativeY": 257,
                 "ResizeMode": "STRETCH",
                 "ParentId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94",
                 "position": "absolute",
-                "edgeOffsets": 252,
+                "edgeOffsets": 257,
                 "style": {
                     "position": "absolute",
                     "left": "27.653336588541666%",
@@ -502,7 +504,7 @@
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "USERNAME",
+                "Text": "",
                 "FontSize": 18,
                 "CustomFont": "",
                 "LineHeight": 1,
@@ -568,13 +570,13 @@
             "translatedName": "Image",
             "properties": {
                 "resizeMode": "stretch",
-                "Height": 97,
-                "Width": 112,
+                "Height": 100,
+                "Width": 100,
                 "Visible": true,
                 "X": 26,
-                "Y": 102,
+                "Y": 118,
                 "RelativeX": 26,
-                "RelativeY": 102,
+                "RelativeY": 118,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -728,7 +730,6 @@
             "name": "Logo1"
         }
     ],
-    "id": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94",
     "thunkableVersion": 426,
     "bindings": null,
     "name": "Profile Screen1"

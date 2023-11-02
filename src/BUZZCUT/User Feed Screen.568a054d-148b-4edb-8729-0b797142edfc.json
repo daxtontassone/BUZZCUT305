@@ -1,4 +1,5 @@
 {
+    "id": "568a054d-148b-4edb-8729-0b797142edfc",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -53,7 +54,8 @@
         "navigationOptions": {
             "headerStyle": {}
         },
-        "tabNavigationOptions": {}
+        "tabNavigationOptions": {},
+        "Scrollable": false
     },
     "children": [
         {
@@ -355,7 +357,6 @@
             "name": "Logo4"
         }
     ],
-    "id": "568a054d-148b-4edb-8729-0b797142edfc",
     "thunkableVersion": 426,
     "bindings": null,
     "name": "User Feed Screen"
