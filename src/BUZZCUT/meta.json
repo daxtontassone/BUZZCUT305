@@ -4,7 +4,21 @@
             "apiComponents": {
                 "ApiContainer": {
                     "id": "ApiContainer",
-                    "children": []
+                    "children": [
+                        {
+                            "type": "Web API",
+                            "translatedName": "Web API",
+                            "isApi": true,
+                            "reactType": "Web",
+                            "properties": {
+                                "URL": "https://www.uuidtools.com/api/generate/v4"
+                            },
+                            "children": [],
+                            "id": "c735c0da-eaa1-4588-8db7-35b734873f98",
+                            "thunkableVersion": 426,
+                            "name": "Post_ID_creation"
+                        }
+                    ]
                 }
             },
             "assets": {},
@@ -32,6 +46,44 @@
                 },
                 "65369c3636920c57f98921e1": {},
                 "8d4c257e-b01f-4e2c-afe4-74c1c7758e94": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "5e5a789c-d9ca-4867-80fc-df2a31f9e887": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "00d534bc-a73f-4e05-956a-d7ff87c2f230": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [
+                            "android.permission.CAMERA"
+                        ],
+                        "ios": [
+                            {
+                                "name": "NSCameraUsageDescription",
+                                "label": "Camera",
+                                "hint": "Describe why your app uses the camera."
+                            }
+                        ]
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "568a054d-148b-4edb-8729-0b797142edfc": {
                     "xml": "",
                     "permissions": {
                         "android": [],
@@ -207,30 +259,40 @@
             "totalStar": "0",
             "starAction": "star",
             "variables": {
+                "3c39e085-e153-416f-a486-b4267a3f1df2": {
+                    "scope": "APP",
+                    "name": "post_ID",
+                    "screenId": "00d534bc-a73f-4e05-956a-d7ff87c2f230"
+                },
+                "8db35bc6-20e9-4d6f-b01d-35109f2b75f4": {
+                    "scope": "APP",
+                    "name": "img_URL",
+                    "screenId": "00d534bc-a73f-4e05-956a-d7ff87c2f230"
+                },
                 "6b87aedc-b86a-47c7-8a22-7b037b138213": {
                     "scope": "APP",
                     "name": "currentlySigningUp",
-                    "screenId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94"
+                    "screenId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4"
                 },
                 "de2648d3-b8c8-4792-90a8-f0146ee120c2": {
                     "scope": "STORED",
                     "name": "email",
-                    "screenId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94"
-                },
-                "ee07e1a1-8a94-41db-9a81-070a794c008c": {
-                    "scope": "STORED",
-                    "name": "password",
-                    "screenId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94"
+                    "screenId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4"
                 },
                 "31605c78-7923-42a5-b2a2-b54fc023eb2c": {
                     "scope": "APP",
                     "name": "session email",
-                    "screenId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94"
+                    "screenId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4"
+                },
+                "ee07e1a1-8a94-41db-9a81-070a794c008c": {
+                    "scope": "STORED",
+                    "name": "password",
+                    "screenId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4"
                 },
                 "71e1b0fc-d23a-4771-8899-00816d2bb22a": {
                     "scope": "APP",
                     "name": "user ID",
-                    "screenId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94"
+                    "screenId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4"
                 }
             },
             "defaultDesignerDevice": "PHONE",
