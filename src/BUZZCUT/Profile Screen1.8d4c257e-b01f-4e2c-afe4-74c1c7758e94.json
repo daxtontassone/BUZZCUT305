@@ -1,4 +1,5 @@
 {
+    "id": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -64,71 +65,18 @@
             "type": "Button",
             "translatedName": "Button",
             "properties": {
-                "Text": "?",
-                "TextColor": "#FFFFFF",
-                "FontSize": 16,
-                "CustomFont": "",
-                "BackgroundColor": "rgba(93, 122, 252, 100)",
-                "Height": 28,
-                "Width": 37,
-                "Visible": true,
-                "X": 321,
-                "Y": 88,
-                "RelativeX": 321,
-                "RelativeY": 88,
-                "ResizeMode": "STRETCH",
-                "style": {
-                    "marginTop": 0,
-                    "marginBottom": 0,
-                    "marginLeft": 0,
-                    "marginRight": 0,
-                    "paddingTop": 0,
-                    "paddingBottom": 0,
-                    "paddingLeft": 0,
-                    "paddingRight": 0,
-                    "borderRadius": 15,
-                    "shadowColor": "rgba(0, 0, 0, 0)",
-                    "shadowOpacity": 0,
-                    "scaledShadowOpacity": 0,
-                    "shadowRadius": 0,
-                    "shadowOffset": {
-                        "width": 0,
-                        "height": 0
-                    },
-                    "position": "absolute",
-                    "left": "55.60000406901042%",
-                    "top": "11.075712143928037%",
-                    "display": "flex"
-                },
-                "FontBold": false,
-                "FontItalic": false,
-                "Raised": false,
-                "Disabled": false,
-                "ParentId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94",
-                "position": "absolute",
-                "edgeOffsets": 88
-            },
-            "children": [],
-            "id": "bc52753c-1122-443e-8f12-ea3d0b120802",
-            "thunkableVersion": 426,
-            "name": "Settings button"
-        },
-        {
-            "type": "Button",
-            "translatedName": "Button",
-            "properties": {
                 "Text": "Add Post",
                 "TextColor": "#FFFFFF",
                 "FontSize": 16,
                 "CustomFont": "",
-                "BackgroundColor": "rgba(93, 122, 252, 100)",
-                "Height": 42,
-                "Width": 129,
+                "BackgroundColor": "rgba(41, 98, 255, 1)",
+                "Height": 40,
+                "Width": 130,
                 "Visible": true,
-                "X": 123,
-                "Y": 602,
-                "RelativeX": 123,
-                "RelativeY": 602,
+                "X": 121,
+                "Y": 606,
+                "RelativeX": 121,
+                "RelativeY": 606,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -159,7 +107,8 @@
                 "Disabled": false,
                 "ParentId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94",
                 "position": "absolute",
-                "edgeOffsets": 602
+                "edgeOffsets": 606,
+                "Font": "Roboto"
             },
             "children": [],
             "id": "2172d57b-d942-4d8c-b63e-ffc5aec4f1b7",
@@ -171,7 +120,7 @@
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "DESCRIPTION",
+                "Text": "",
                 "FontSize": 18,
                 "CustomFont": "",
                 "LineHeight": 1,
@@ -224,7 +173,8 @@
                 "ParentId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94",
                 "position": "absolute",
                 "edgeOffsets": 150,
-                "children": "DESCRIPTION"
+                "children": "",
+                "Font": "Roboto"
             },
             "children": [],
             "id": "3641b1b9-f186-456f-941a-f0e33d88b40f",
@@ -259,14 +209,14 @@
                 "Height": 334,
                 "Width": 323,
                 "Visible": true,
-                "X": 26,
-                "Y": 252,
-                "RelativeX": 26,
-                "RelativeY": 252,
+                "X": 24,
+                "Y": 257,
+                "RelativeX": 24,
+                "RelativeY": 257,
                 "ResizeMode": "STRETCH",
                 "ParentId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94",
                 "position": "absolute",
-                "edgeOffsets": 252,
+                "edgeOffsets": 257,
                 "style": {
                     "position": "absolute",
                     "left": "27.653336588541666%",
@@ -488,7 +438,7 @@
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "USERNAME",
+                "Text": "",
                 "FontSize": 18,
                 "CustomFont": "",
                 "LineHeight": 1,
@@ -541,7 +491,8 @@
                 "ParentId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94",
                 "position": "absolute",
                 "edgeOffsets": 118,
-                "children": "USERNAME"
+                "children": "",
+                "Font": "Roboto"
             },
             "children": [],
             "id": "e4f904eb-865a-47f0-8aff-7b7001284c6c",
@@ -553,13 +504,13 @@
             "translatedName": "Image",
             "properties": {
                 "resizeMode": "stretch",
-                "Height": 97,
-                "Width": 112,
+                "Height": 100,
+                "Width": 100,
                 "Visible": true,
                 "X": 26,
-                "Y": 102,
+                "Y": 118,
                 "RelativeX": 26,
-                "RelativeY": 102,
+                "RelativeY": 118,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -586,7 +537,7 @@
                 "capInsets": {},
                 "ParentId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94",
                 "position": "absolute",
-                "edgeOffsets": 102
+                "edgeOffsets": 118
             },
             "children": [],
             "id": "188e74ec-9430-4d9f-b6c2-0dd89b43fc07",
@@ -707,7 +658,6 @@
             "name": "Logo1"
         }
     ],
-    "id": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94",
     "thunkableVersion": 426,
     "bindings": null,
     "name": "Profile Screen1"
