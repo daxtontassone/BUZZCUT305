@@ -44,6 +44,75 @@
     },
     "children": [
         {
+            "type": "Label",
+            "translatedName": "Label",
+            "reactType": "Text",
+            "properties": {
+                "Text": "buzzcut",
+                "FontSize": 22,
+                "CustomFont": "",
+                "LineHeight": 1,
+                "Color": "rgba(255, 255, 255, 1)",
+                "TextAlign": "center",
+                "Height": 47,
+                "Width": 313,
+                "Visible": true,
+                "X": 32,
+                "Y": 25,
+                "RelativeX": 32,
+                "RelativeY": 25,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "color": "rgba(255, 255, 255, 1)",
+                    "fontSize": 22,
+                    "fontStyle": "normal",
+                    "textShadowOffset": {},
+                    "letterSpacing": 0,
+                    "textDecorationLine": "none",
+                    "textDecorationStyle": "solid",
+                    "textDecorationColor": "rgba(0, 0, 0, 1)",
+                    "writingDirection": "auto",
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "flexWrap": "wrap",
+                    "borderWidth": 0,
+                    "borderRadius": 0,
+                    "borderColor": "rgba(236, 237, 237, 1)",
+                    "borderStyle": "solid",
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "23.333333333333332%",
+                    "top": "0%",
+                    "lineHeight": 1,
+                    "display": "flex",
+                    "textAlign": "center"
+                },
+                "ParentId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4",
+                "position": "absolute",
+                "edgeOffsets": 25,
+                "children": "buzzcut",
+                "Font": "Abril Fatface"
+            },
+            "children": [],
+            "id": "0983a424-12c1-457f-937e-59c09c18ea02",
+            "thunkableVersion": 428,
+            "bindings": null,
+            "name": "LogoHolder2"
+        },
+        {
             "type": "Button",
             "translatedName": "Button",
             "properties": {
@@ -92,7 +161,8 @@
                 "Disabled": false,
                 "position": "absolute",
                 "edgeOffsets": 302,
-                "ParentId": "25f37915-c7f4-4306-8a6c-8d104dffe547"
+                "ParentId": "25f37915-c7f4-4306-8a6c-8d104dffe547",
+                "Font": "Roboto"
             },
             "children": [],
             "id": "25990e65-ec79-4988-af89-6de51c00bb9e",
@@ -192,7 +262,8 @@
                 "edgeOffsets": 235.375,
                 "ParentId": "25f37915-c7f4-4306-8a6c-8d104dffe547",
                 "RelativeX": 98,
-                "RelativeY": 235
+                "RelativeY": 235,
+                "Font": "Roboto"
             },
             "children": [],
             "id": "effe030a-9830-4c72-a439-bdd7fbe65dd1",
@@ -298,7 +369,8 @@
                 "edgeOffsets": 174,
                 "ParentId": "25f37915-c7f4-4306-8a6c-8d104dffe547",
                 "RelativeX": 99,
-                "RelativeY": 174
+                "RelativeY": 174,
+                "Font": "Roboto"
             },
             "children": [],
             "id": "3becd789-6966-4b99-95a3-ebab3f2a1718",
@@ -357,7 +429,8 @@
                 "RelativeX": 86,
                 "RelativeY": 123,
                 "Color": "rgba(255, 255, 255, 1)",
-                "TextAlign": "center"
+                "TextAlign": "center",
+                "Font": "Roboto"
             },
             "children": [],
             "id": "d601d2d4-0358-4eb4-8f76-b7217f09dace",

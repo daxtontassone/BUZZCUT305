@@ -1,4 +1,5 @@
 {
+    "id": "5e5a789c-d9ca-4867-80fc-df2a31f9e887",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -129,10 +130,10 @@
                 "Height": 58,
                 "Width": 61,
                 "Visible": true,
-                "X": 21,
-                "Y": 89,
-                "RelativeX": 21,
-                "RelativeY": 89,
+                "X": 32,
+                "Y": 88,
+                "RelativeX": 32,
+                "RelativeY": 88,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -154,12 +155,15 @@
                     "position": "absolute",
                     "left": "3.386669921875%",
                     "top": "13.054724468820277%",
-                    "display": "flex"
+                    "display": "flex",
+                    "borderStyle": "solid",
+                    "borderRadius": 0,
+                    "borderWidth": 0
                 },
                 "capInsets": {},
                 "ParentId": "5e5a789c-d9ca-4867-80fc-df2a31f9e887",
                 "position": "absolute",
-                "edgeOffsets": 89
+                "edgeOffsets": 88
             },
             "children": [],
             "id": "fe505a12-564e-4f60-b1f2-99de37163269",
@@ -171,21 +175,21 @@
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "Label",
+                "Text": "",
                 "FontSize": 18,
                 "CustomFont": "",
                 "LineHeight": 1,
-                "Color": "rgba(0, 0, 0, 1)",
-                "Height": 43,
-                "Width": 243,
+                "Color": "rgba(255, 255, 255, 1)",
+                "Height": 25,
+                "Width": 200,
                 "Visible": true,
-                "X": 102,
-                "Y": 104,
-                "RelativeX": 102,
-                "RelativeY": 104,
+                "X": 143,
+                "Y": 103,
+                "RelativeX": 143,
+                "RelativeY": 103,
                 "ResizeMode": "STRETCH",
                 "style": {
-                    "color": "rgba(0, 0, 0, 1)",
+                    "color": "rgba(255, 255, 255, 1)",
                     "fontSize": 18,
                     "fontStyle": "normal",
                     "textShadowOffset": {},
@@ -203,9 +207,9 @@
                     "paddingLeft": 0,
                     "paddingRight": 0,
                     "flexWrap": "wrap",
-                    "borderWidth": 0,
+                    "borderWidth": 0.5,
                     "borderRadius": 0,
-                    "borderColor": "rgba(236, 237, 237, 1)",
+                    "borderColor": "rgba(255, 255, 255, 1)",
                     "borderStyle": "solid",
                     "shadowColor": "rgba(0, 0, 0, 0)",
                     "shadowOpacity": 0,
@@ -219,12 +223,14 @@
                     "left": "15.760005696614583%",
                     "top": "9.90629868171383%",
                     "lineHeight": 1,
-                    "display": "flex"
+                    "display": "flex",
+                    "textAlign": "right"
                 },
                 "ParentId": "5e5a789c-d9ca-4867-80fc-df2a31f9e887",
                 "position": "absolute",
-                "edgeOffsets": 104,
-                "children": "Label"
+                "edgeOffsets": 103.99999999999999,
+                "children": "",
+                "TextAlign": "right"
             },
             "children": [],
             "id": "b84a4b22-8251-4d39-aec5-b972c19f204e",
@@ -323,7 +329,6 @@
             "name": "Logo5"
         }
     ],
-    "id": "5e5a789c-d9ca-4867-80fc-df2a31f9e887",
     "thunkableVersion": 426,
     "bindings": null,
     "name": "User Feed Picture Extension"

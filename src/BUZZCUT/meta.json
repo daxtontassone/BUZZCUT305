@@ -210,27 +210,27 @@
                 "6b87aedc-b86a-47c7-8a22-7b037b138213": {
                     "scope": "APP",
                     "name": "currentlySigningUp",
-                    "screenId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94"
+                    "screenId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4"
                 },
                 "de2648d3-b8c8-4792-90a8-f0146ee120c2": {
                     "scope": "STORED",
                     "name": "email",
-                    "screenId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94"
+                    "screenId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4"
                 },
                 "ee07e1a1-8a94-41db-9a81-070a794c008c": {
                     "scope": "STORED",
                     "name": "password",
-                    "screenId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94"
+                    "screenId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4"
                 },
                 "31605c78-7923-42a5-b2a2-b54fc023eb2c": {
                     "scope": "APP",
                     "name": "session email",
-                    "screenId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94"
+                    "screenId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4"
                 },
                 "71e1b0fc-d23a-4771-8899-00816d2bb22a": {
                     "scope": "APP",
                     "name": "user ID",
-                    "screenId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94"
+                    "screenId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4"
                 }
             },
             "defaultDesignerDevice": "PHONE",
