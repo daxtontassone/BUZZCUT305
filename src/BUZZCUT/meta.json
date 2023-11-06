@@ -185,7 +185,9 @@
                 "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {}
+                        "usageDescriptions": {
+                            "NSCameraUsageDescription": ""
+                        }
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -231,7 +233,9 @@
                 "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {}
+                        "usageDescriptions": {
+                            "NSCameraUsageDescription": ""
+                        }
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -293,6 +297,11 @@
                     "scope": "APP",
                     "name": "user ID",
                     "screenId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4"
+                },
+                "8e5939e2-2179-4b23-a89f-c016ed14b9a3": {
+                    "scope": "APP",
+                    "name": "description",
+                    "screenId": "00d534bc-a73f-4e05-956a-d7ff87c2f230"
                 }
             },
             "defaultDesignerDevice": "PHONE",
