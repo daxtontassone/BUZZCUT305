@@ -289,11 +289,6 @@
                     "name": "session email",
                     "screenId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4"
                 },
-                "ee07e1a1-8a94-41db-9a81-070a794c008c": {
-                    "scope": "STORED",
-                    "name": "password",
-                    "screenId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4"
-                },
                 "71e1b0fc-d23a-4771-8899-00816d2bb22a": {
                     "scope": "APP",
                     "name": "user ID",
