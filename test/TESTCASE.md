@@ -1,7 +1,8 @@
 # Test Cases
 ### US1
 https://docs.google.com/presentation/d/1C-knpn08TWxCBZo9l6cR67CMg9SY9iH5WLXENlCMsNQ/edit?usp=sharing
-
+### US2
+https://docs.google.com/presentation/d/1Mt_U_IuqMhcKoyzloCWbqRKBvpKse09DOrUaOzje6N0/edit?usp=sharing
 ### US3
 https://docs.google.com/presentation/d/1vcDfZL5XDJovUsg-SaxFLMIms5DXVp5vpvIY--Q59j4/edit?usp=sharing
 ### US4
