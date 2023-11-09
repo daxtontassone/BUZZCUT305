@@ -1,4 +1,5 @@
 {
+    "id": "b71302b4-dcd5-4f84-87c6-907d4b8c02db",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -1375,7 +1376,6 @@
             "name": "Label6"
         }
     ],
-    "id": "b71302b4-dcd5-4f84-87c6-907d4b8c02db",
     "thunkableVersion": 428,
     "bindings": null,
     "name": "Profile SetUp"
