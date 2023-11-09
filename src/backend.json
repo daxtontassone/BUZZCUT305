@@ -1,13 +1,53 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
-  "additionalProperties": {
-    "type": "object",
-    "properties": {
-      "displayName": {
-        "type": "string"
+  "properties": {
+    "accounts": {
+      "type": "object",
+      "patternProperties": {
+        "^[A-Za-z0-9]{26}$": {
+          "type": "object",
+          "properties": {
+            "description": {
+              "type": "string"
+            },
+            "displayname": {
+              "type": "string"
+            },
+            "fullname": {
+              "type": "string"
+            },
+            "profileimage": {
+              "type": "string",
+              "format": "uri"
+            }
+          },
+          "required": ["description", "displayname", "fullname", "profileimage"]
+        }
       }
     },
-    "required": ["displayName"]
+    "posts": {
+      "type": "object",
+      "patternProperties": {
+        "^[a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12}$": {
+          "type": "object",
+          "properties": {
+            "user": {
+              "type": "string"
+            },
+            "image": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": {
+              "type": "string"
+            }
+          },
+          "required": ["user", "image", "description"]
+        }
+      }
+    },
+    "required": ["accounts", "posts"]
   }
 }
+
