@@ -206,7 +206,9 @@
                 "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {}
+                        "usageDescriptions": {
+                            "NSCameraUsageDescription": ""
+                        }
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -252,7 +254,9 @@
                 "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {}
+                        "usageDescriptions": {
+                            "NSCameraUsageDescription": ""
+                        }
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -315,11 +319,6 @@
                     "name": "user ID",
                     "screenId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4"
                 },
-                "8e5939e2-2179-4b23-a89f-c016ed14b9a3": {
-                    "scope": "APP",
-                    "name": "description",
-                    "screenId": "00d534bc-a73f-4e05-956a-d7ff87c2f230"
-                },
                 "d16073ac-f06a-4e64-be03-5f194771277e": {
                     "scope": "APP",
                     "name": "checkSetFullName",
@@ -339,6 +338,16 @@
                     "scope": "APP",
                     "name": "checkSetPic",
                     "screenId": "b71302b4-dcd5-4f84-87c6-907d4b8c02db"
+                },
+                "7b386250-42ab-40ac-99ef-625e93ae6a88": {
+                    "scope": "STORED",
+                    "name": "saved_display_name",
+                    "screenId": "b71302b4-dcd5-4f84-87c6-907d4b8c02db"
+                },
+                "1fc04278-4558-4353-9f8c-b4554b710361": {
+                    "scope": "APP",
+                    "name": "description",
+                    "screenId": "00d534bc-a73f-4e05-956a-d7ff87c2f230"
                 }
             },
             "defaultDesignerDevice": "PHONE",
