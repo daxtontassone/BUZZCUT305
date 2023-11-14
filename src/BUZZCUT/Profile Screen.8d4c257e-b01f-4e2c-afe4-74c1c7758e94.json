@@ -73,7 +73,7 @@
                 "Color": "rgba(255, 255, 255, 1)",
                 "Height": 35,
                 "Width": 185,
-                "Visible": true,
+                "Visible": false,
                 "X": 165,
                 "Y": 119,
                 "RelativeX": 165,
@@ -114,7 +114,7 @@
                     "left": "46.16000569661458%",
                     "top": "14.404049806151612%",
                     "lineHeight": 1,
-                    "display": "flex",
+                    "display": "none",
                     "textAlign": "right"
                 },
                 "ParentId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94",
@@ -276,17 +276,17 @@
                         }
                     }
                 },
-                "Height": 334,
-                "Width": 323,
+                "Height": 336,
+                "Width": 327,
                 "Visible": true,
-                "X": 24,
-                "Y": 257,
-                "RelativeX": 24,
-                "RelativeY": 257,
+                "X": 26,
+                "Y": 258,
+                "RelativeX": 26,
+                "RelativeY": 258,
                 "ResizeMode": "STRETCH",
                 "ParentId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94",
                 "position": "absolute",
-                "edgeOffsets": 257,
+                "edgeOffsets": 258,
                 "style": {
                     "position": "absolute",
                     "left": "27.653336588541666%",
@@ -383,7 +383,16 @@
                             "id": "38726acb-84a1-45de-ba19-1e3bf8b33861",
                             "thunkableVersion": 426,
                             "name": "Image",
-                            "bindingLabel": "Image"
+                            "bindingLabel": "Image",
+                            "bindings": {
+                                "Picture": {
+                                    "type": "COMPONENT_PROPERTY_TABLE_ELEMENT",
+                                    "componentId": "03bdaa08-4c2b-422c-9a84-05a89031160d",
+                                    "property": "DataSourceTableBinding",
+                                    "column": "874101e1-b49b-4f95-9ba0-ae97cb007726",
+                                    "row": 0
+                                }
+                            }
                         },
                         {
                             "type": "Column",
@@ -486,22 +495,41 @@
                                     "id": "4a64eea0-457b-4e61-b3c9-7ef9d14eed01",
                                     "thunkableVersion": 426,
                                     "name": "Title",
-                                    "bindingLabel": "Title"
+                                    "bindingLabel": "Title",
+                                    "bindings": {
+                                        "Text": {
+                                            "type": "COMPONENT_PROPERTY_TABLE_ELEMENT",
+                                            "componentId": "03bdaa08-4c2b-422c-9a84-05a89031160d",
+                                            "property": "DataSourceTableBinding",
+                                            "column": "c157a835-d400-4f05-adfe-d5163103c88d",
+                                            "row": 0
+                                        }
+                                    }
                                 }
                             ],
                             "id": "d0cc4f51-f676-468d-8809-35f0aa0475fc",
                             "thunkableVersion": 426,
-                            "name": "LabelWrapper"
+                            "name": "LabelWrapper",
+                            "bindings": {}
                         }
                     ],
                     "id": "a3cff51b-0511-48c6-8284-a16506040580",
                     "thunkableVersion": 426,
-                    "name": "LayoutWrapper"
+                    "name": "LayoutWrapper",
+                    "bindings": {}
                 }
             ],
             "id": "03bdaa08-4c2b-422c-9a84-05a89031160d",
             "thunkableVersion": 426,
-            "name": "Personal_Post_Grid"
+            "name": "Personal_Post_Grid",
+            "bindings": {
+                "DataSourceTableBinding": {
+                    "dataSourceLinkId": "17851df7-85fb-4be5-bb8e-cc85967c2d27",
+                    "collectionId": "39a089cb-b5ee-4ab0-9ed4-ef6675944463",
+                    "isLocal": true,
+                    "type": "DATA_SOURCE_TABLE"
+                }
+            }
         },
         {
             "type": "Label",
@@ -517,9 +545,9 @@
                 "Width": 185,
                 "Visible": true,
                 "X": 165,
-                "Y": 84,
+                "Y": 118,
                 "RelativeX": 165,
-                "RelativeY": 84,
+                "RelativeY": 118,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(255, 255, 255, 1)",
@@ -561,7 +589,7 @@
                 },
                 "ParentId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94",
                 "position": "absolute",
-                "edgeOffsets": 84,
+                "edgeOffsets": 118,
                 "children": "",
                 "Font": "Roboto",
                 "TextAlign": "right"
@@ -575,7 +603,7 @@
             "type": "Image",
             "translatedName": "Image",
             "properties": {
-                "resizeMode": "stretch",
+                "resizeMode": "center",
                 "Height": 100,
                 "Width": 100,
                 "Visible": true,

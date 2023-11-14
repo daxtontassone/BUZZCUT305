@@ -76,6 +76,11 @@
                                 "name": "NSCameraUsageDescription",
                                 "label": "Camera",
                                 "hint": "Describe why your app uses the camera."
+                            },
+                            {
+                                "name": "NSPhotoLibraryUsageDescription",
+                                "label": "Photos",
+                                "hint": "Describe why your app uses photos."
                             }
                         ]
                     },
@@ -206,9 +211,7 @@
                 "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSCameraUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -254,9 +257,7 @@
                 "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSCameraUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -276,7 +277,65 @@
             "hasPushNotification": false,
             "hasAssistant": null,
             "dataSourceLinks": [],
-            "localDataSources": [],
+            "localDataSources": [
+                {
+                    "id": "17851df7-85fb-4be5-bb8e-cc85967c2d27",
+                    "dataSource": {
+                        "id": "e4210aec-a481-44be-8381-c95ef162e098",
+                        "name": "post_display",
+                        "owner": "64f6078fe0fc7e6bbf2bf042",
+                        "collections": [
+                            {
+                                "id": "39a089cb-b5ee-4ab0-9ed4-ef6675944463",
+                                "name": "Table 1",
+                                "label": "Table 1",
+                                "fields": [
+                                    {
+                                        "id": "874101e1-b49b-4f95-9ba0-ae97cb007726",
+                                        "name": "column1",
+                                        "label": "img_url",
+                                        "type": "STRING"
+                                    },
+                                    {
+                                        "id": "c157a835-d400-4f05-adfe-d5163103c88d",
+                                        "label": "description",
+                                        "name": "column",
+                                        "type": "STRING"
+                                    },
+                                    {
+                                        "id": "d6cd7281-84e5-4e0c-abd0-18bb9d0e3419",
+                                        "label": "post_ID",
+                                        "name": "post_ID",
+                                        "type": "STRING"
+                                    }
+                                ],
+                                "data": {
+                                    "edges": [
+                                        {
+                                            "cursor": "9c95793e-d3db-4ca7-9018-ba7e16b31563",
+                                            "node": {
+                                                "id": "c36f4f7a-4828-45fc-a32b-851e941b0989",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "874101e1-b49b-4f95-9ba0-ae97cb007726",
+                                                        "value": ""
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "configuration": {
+                            "id": "9b7d0bd6-bd70-42be-ae24-c593057197fc",
+                            "name": "post_display",
+                            "owner": "64f6078fe0fc7e6bbf2bf042",
+                            "type": "IN_MEMORY"
+                        }
+                    }
+                }
+            ],
             "customProperties": [],
             "modules": [],
             "usesDragDropUi": true,
@@ -348,6 +407,11 @@
                     "scope": "APP",
                     "name": "description",
                     "screenId": "00d534bc-a73f-4e05-956a-d7ff87c2f230"
+                },
+                "88a4ece4-a8c8-4db4-9be8-6236c3e45cef": {
+                    "scope": "APP",
+                    "name": "post_list",
+                    "screenId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94"
                 }
             },
             "defaultDesignerDevice": "PHONE",
