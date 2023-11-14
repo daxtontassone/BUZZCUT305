@@ -251,7 +251,7 @@
             "properties": {
                 "Text": "Enter full name",
                 "TextColor": "#FFFFFF",
-                "FontSize": 16,
+                "FontSize": 18,
                 "CustomFont": "",
                 "BackgroundColor": "rgba(208, 2, 27, 1)",
                 "Height": 48,
@@ -1034,7 +1034,8 @@
                 "Disabled": false,
                 "position": "absolute",
                 "edgeOffsets": 434,
-                "ParentId": "25f37915-c7f4-4306-8a6c-8d104dffe547"
+                "ParentId": "25f37915-c7f4-4306-8a6c-8d104dffe547",
+                "Font": "Roboto"
             },
             "children": [],
             "id": "0096e97f-740c-4dbb-84a3-40664301a68e",
@@ -1091,7 +1092,8 @@
                 "Disabled": false,
                 "position": "absolute",
                 "edgeOffsets": 386,
-                "ParentId": "25f37915-c7f4-4306-8a6c-8d104dffe547"
+                "ParentId": "25f37915-c7f4-4306-8a6c-8d104dffe547",
+                "Font": "Roboto"
             },
             "children": [],
             "id": "8661b6a8-09b2-4c8f-a40b-7b3589b4984e",
@@ -1206,7 +1208,8 @@
                 "Disabled": false,
                 "position": "absolute",
                 "edgeOffsets": 277,
-                "ParentId": "25f37915-c7f4-4306-8a6c-8d104dffe547"
+                "ParentId": "25f37915-c7f4-4306-8a6c-8d104dffe547",
+                "Font": "Roboto"
             },
             "children": [],
             "id": "7c1f9677-ec7c-4359-8016-b4f63c8bc122",
