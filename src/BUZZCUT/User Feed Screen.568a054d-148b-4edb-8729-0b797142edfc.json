@@ -59,6 +59,62 @@
     },
     "children": [
         {
+            "type": "Button",
+            "translatedName": "Button",
+            "properties": {
+                "Text": "\u2261",
+                "TextColor": "#FFFFFF",
+                "FontSize": 16,
+                "CustomFont": "",
+                "BackgroundColor": "rgba(208, 2, 27, 1)",
+                "Height": 27,
+                "Width": 27,
+                "Visible": true,
+                "X": 4,
+                "Y": 83,
+                "RelativeX": 4,
+                "RelativeY": 83,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "borderRadius": 15,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "19.866670735677083%",
+                    "top": "13.354574543782796%",
+                    "display": "flex"
+                },
+                "FontBold": false,
+                "FontItalic": false,
+                "Raised": false,
+                "Disabled": false,
+                "ParentId": "568a054d-148b-4edb-8729-0b797142edfc",
+                "position": "absolute",
+                "edgeOffsets": {
+                    "left": "19.866670735677083%",
+                    "top": "13.354574543782796%"
+                }
+            },
+            "children": [],
+            "id": "d7363c16-71a2-40f5-9b01-aff3955fee14",
+            "thunkableVersion": 432,
+            "name": "Nav_button_userfeed"
+        },
+        {
             "type": "Label",
             "translatedName": "Label",
             "reactType": "Text",
