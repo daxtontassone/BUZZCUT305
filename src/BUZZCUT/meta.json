@@ -219,9 +219,7 @@
                 "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSPhotoLibraryUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -267,9 +265,7 @@
                 "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSPhotoLibraryUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -344,6 +340,67 @@
                             "name": "post_display",
                             "owner": "64f6078fe0fc7e6bbf2bf042",
                             "type": "IN_MEMORY"
+                        }
+                    }
+                },
+                {
+                    "id": "532f88d6-dc19-44b1-a592-af14227ea439",
+                    "dataSource": {
+                        "id": "aac055ea-c9b7-4ca8-8451-f95f13b4b639",
+                        "name": "feed_display",
+                        "owner": "64f9d0b906d0f0626e5bb13e",
+                        "collections": [
+                            {
+                                "id": "a6167857-f23b-4131-8a25-e46023ebb804",
+                                "name": "Table 1",
+                                "label": "Table 1",
+                                "fields": [
+                                    {
+                                        "id": "8bd862c8-46f3-475c-8536-59b334cc7312",
+                                        "name": "column1",
+                                        "label": "image_url",
+                                        "type": "STRING"
+                                    },
+                                    {
+                                        "id": "c532a89a-3305-4daf-8a21-69cf9968b5b4",
+                                        "name": "column2",
+                                        "label": "description",
+                                        "type": "NUMBER"
+                                    },
+                                    {
+                                        "id": "d8125bee-6e26-4cba-b0fb-ac9c55f9c7a0",
+                                        "label": "post_ID",
+                                        "name": "post_ID",
+                                        "type": "STRING"
+                                    }
+                                ],
+                                "data": {
+                                    "edges": [
+                                        {
+                                            "cursor": "79448952-e581-4c94-bd3d-f56a32ca61ed",
+                                            "node": {
+                                                "id": "4257c520-318d-49d4-abe3-e5a6a22b3a0e",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "8bd862c8-46f3-475c-8536-59b334cc7312",
+                                                        "value": ""
+                                                    },
+                                                    {
+                                                        "fieldId": "c532a89a-3305-4daf-8a21-69cf9968b5b4",
+                                                        "value": ""
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "configuration": {
+                            "id": "c424d520-4ad4-4a00-97c7-f5e1f47707f3",
+                            "name": "feed_display",
+                            "owner": "64f9d0b906d0f0626e5bb13e",
+                            "type": "LOCAL"
                         }
                     }
                 }

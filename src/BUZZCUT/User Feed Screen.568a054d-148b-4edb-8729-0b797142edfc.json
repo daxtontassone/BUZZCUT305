@@ -259,7 +259,16 @@
                             "id": "0be8f69f-179b-4491-82b7-6fbe2844b738",
                             "thunkableVersion": 426,
                             "name": "Image",
-                            "bindingLabel": "Image"
+                            "bindingLabel": "Image",
+                            "bindings": {
+                                "Picture": {
+                                    "type": "COMPONENT_PROPERTY_TABLE_ELEMENT",
+                                    "componentId": "56aed308-a480-42ba-a333-94b9e6219f7d",
+                                    "property": "DataSourceTableBinding",
+                                    "column": "8bd862c8-46f3-475c-8536-59b334cc7312",
+                                    "row": 0
+                                }
+                            }
                         },
                         {
                             "type": "Column",
@@ -362,22 +371,41 @@
                                     "id": "9df259b8-21ba-464c-a09d-34cb3f1a537c",
                                     "thunkableVersion": 426,
                                     "name": "Title",
-                                    "bindingLabel": "Title"
+                                    "bindingLabel": "Title",
+                                    "bindings": {
+                                        "Text": {
+                                            "type": "COMPONENT_PROPERTY_TABLE_ELEMENT",
+                                            "componentId": "56aed308-a480-42ba-a333-94b9e6219f7d",
+                                            "property": "DataSourceTableBinding",
+                                            "column": "c532a89a-3305-4daf-8a21-69cf9968b5b4",
+                                            "row": 0
+                                        }
+                                    }
                                 }
                             ],
                             "id": "334f8dfe-4264-4db7-9a37-3c6a1706d7b2",
                             "thunkableVersion": 426,
-                            "name": "LabelWrapper"
+                            "name": "LabelWrapper",
+                            "bindings": {}
                         }
                     ],
                     "id": "25db3d01-c9e1-43cb-a3b3-e409395459f4",
                     "thunkableVersion": 426,
-                    "name": "LayoutWrapper"
+                    "name": "LayoutWrapper",
+                    "bindings": {}
                 }
             ],
             "id": "56aed308-a480-42ba-a333-94b9e6219f7d",
             "thunkableVersion": 426,
-            "name": "Data_Viewer_Grid1"
+            "name": "Data_Viewer_Grid1",
+            "bindings": {
+                "DataSourceTableBinding": {
+                    "dataSourceLinkId": "532f88d6-dc19-44b1-a592-af14227ea439",
+                    "collectionId": "a6167857-f23b-4131-8a25-e46023ebb804",
+                    "isLocal": true,
+                    "type": "DATA_SOURCE_TABLE"
+                }
+            }
         },
         {
             "type": "Image",
