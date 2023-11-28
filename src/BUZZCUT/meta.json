@@ -219,10 +219,7 @@
                 "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSPhotoLibraryUsageDescription": "",
-                            "NSCameraUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -268,10 +265,7 @@
                 "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSPhotoLibraryUsageDescription": "",
-                            "NSCameraUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -487,6 +481,16 @@
                     "scope": "APP",
                     "name": "feed_list",
                     "screenId": "568a054d-148b-4edb-8729-0b797142edfc"
+                },
+                "69d7070e-7a36-416c-9837-5538be0c8570": {
+                    "scope": "APP",
+                    "name": "selected_post_id",
+                    "screenId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94"
+                },
+                "153a8ca9-0776-482c-877b-6e1dfc33192f": {
+                    "scope": "APP",
+                    "name": "selected_user_id",
+                    "screenId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94"
                 }
             },
             "defaultDesignerDevice": "PHONE",
