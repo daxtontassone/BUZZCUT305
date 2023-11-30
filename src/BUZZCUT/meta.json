@@ -123,8 +123,7 @@
                     "enabledFeatures": {
                         "iap": false
                     }
-                },
-                "655adec27b779242d2bfabf1": {}
+                }
             },
             "categories": [],
             "components": {
@@ -480,13 +479,23 @@
                 },
                 "88a4ece4-a8c8-4db4-9be8-6236c3e45cef": {
                     "scope": "APP",
-                    "name": "feed_list",
-                    "screenId": "568a054d-148b-4edb-8729-0b797142edfc"
+                    "name": "post_list",
+                    "screenId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94"
                 },
-                "c384d53e-1175-45e1-b960-2793abe1707f": {
+                "69d7070e-7a36-416c-9837-5538be0c8570": {
                     "scope": "APP",
-                    "name": "post list",
-                    "screenId": "25f37915-c7f4-4306-8a6c-8d104dffe547"
+                    "name": "selected_post_id",
+                    "screenId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94"
+                },
+                "153a8ca9-0776-482c-877b-6e1dfc33192f": {
+                    "scope": "APP",
+                    "name": "selected_user_id",
+                    "screenId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94"
+                },
+                "b3a9e079-f52f-46fb-959a-d2d15e4b3bce": {
+                    "scope": "APP",
+                    "name": "exit",
+                    "screenId": "568a054d-148b-4edb-8729-0b797142edfc"
                 }
             },
             "defaultDesignerDevice": "PHONE",

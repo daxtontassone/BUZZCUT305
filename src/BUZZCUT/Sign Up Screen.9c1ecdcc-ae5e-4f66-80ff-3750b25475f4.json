@@ -601,11 +601,11 @@
             "properties": {
                 "Hint": "Email address:",
                 "KeyboardType": "email-address",
-                "Height": 37,
-                "Width": 329,
+                "Height": 41,
+                "Width": 333,
                 "Visible": true,
-                "X": 23,
-                "Y": 150,
+                "X": 24,
+                "Y": 151,
                 "style": {
                     "fontSize": 18,
                     "marginTop": 0,
@@ -646,7 +646,7 @@
                 "keyboardType": "email-address",
                 "onChangeText": "function(e){this.properties.Text=e}",
                 "position": "absolute",
-                "edgeOffsets": 148,
+                "edgeOffsets": 151,
                 "ParentId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4",
                 "placeholder": "Email address:",
                 "color": "rgba(0, 0, 0, 1)",
@@ -657,8 +657,8 @@
                 "textDecorationColor": "rgba(0, 0, 0, 1)",
                 "writingDirection": "auto",
                 "clearButtonMode": "never",
-                "RelativeX": 23,
-                "RelativeY": 150
+                "RelativeX": 24,
+                "RelativeY": 151
             },
             "children": [],
             "id": "df8d84fb-740c-4a8c-a331-502524b16219",

@@ -52,8 +52,8 @@
                 "FontSize": 16,
                 "CustomFont": "",
                 "BackgroundColor": "rgba(208, 2, 27, 1)",
-                "Height": 29,
-                "Width": 29,
+                "Height": 27,
+                "Width": 27,
                 "Visible": true,
                 "X": 4,
                 "Y": 83,
@@ -89,8 +89,10 @@
                 "Disabled": false,
                 "ParentId": "25f37915-c7f4-4306-8a6c-8d104dffe547",
                 "position": "absolute",
-                "edgeOffsets": 83.80000305175781,
-                "Font": "Roboto"
+                "edgeOffsets": {
+                    "left": "9.466670735677083%",
+                    "top": "41.8131480364891%"
+                }
             },
             "children": [],
             "id": "3cff8a18-1a66-4237-b065-dbc8ba4b5dbe",
