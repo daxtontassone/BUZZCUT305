@@ -70,8 +70,8 @@
                 "FontSize": 16,
                 "CustomFont": "",
                 "BackgroundColor": "rgba(208, 2, 27, 1)",
-                "Height": 27,
-                "Width": 27,
+                "Height": 29,
+                "Width": 29,
                 "Visible": true,
                 "X": 4,
                 "Y": 83,
@@ -107,8 +107,7 @@
                 "Disabled": false,
                 "ParentId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94",
                 "position": "absolute",
-                "edgeOffsets": 83.80000305175781,
-                "Font": "Roboto"
+                "edgeOffsets": 83.80000305175781
             },
             "children": [],
             "id": "b15b9a95-d45c-4452-8e36-7aa9523256d8",
