@@ -1,5 +1,4 @@
 {
-    "id": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -62,21 +61,66 @@
     },
     "children": [
         {
+            "type": "Image",
+            "translatedName": "Image",
+            "properties": {
+                "resizeMode": "stretch",
+                "Height": 129,
+                "Width": 139,
+                "Visible": true,
+                "X": 32.79999923706055,
+                "Y": 520.7999877929688,
+                "RelativeX": 32.79999923706055,
+                "RelativeY": 520.7999877929688,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "23.653336588541666%",
+                    "top": "78.27211577316811%",
+                    "display": "flex"
+                },
+                "capInsets": {},
+                "ParentId": "efe24431-2b5e-44ad-bd37-b7e29f3380b6",
+                "position": "absolute",
+                "edgeOffsets": 520.7999877929688
+            },
+            "children": [],
+            "id": "605d45f8-6e99-4864-af70-26b1802511fe",
+            "thunkableVersion": 433,
+            "name": "Image3"
+        },
+        {
             "type": "Button",
             "translatedName": "Button",
             "properties": {
-                "Text": "\u2261",
+                "Text": "X",
                 "TextColor": "#FFFFFF",
                 "FontSize": 16,
                 "CustomFont": "",
                 "BackgroundColor": "rgba(208, 2, 27, 1)",
-                "Height": 29,
-                "Width": 29,
+                "Height": 30,
+                "Width": 30,
                 "Visible": true,
-                "X": 4,
-                "Y": 83,
-                "RelativeX": 4,
-                "RelativeY": 83,
+                "X": 339,
+                "Y": 82,
+                "RelativeX": 339,
+                "RelativeY": 82,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -97,22 +141,25 @@
                         "height": 0
                     },
                     "position": "absolute",
-                    "left": "0%",
-                    "top": "5.25862251979479%",
+                    "left": "81.46667073567708%",
+                    "top": "7.207648007051162%",
                     "display": "flex"
                 },
                 "FontBold": false,
                 "FontItalic": false,
                 "Raised": false,
                 "Disabled": false,
-                "ParentId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94",
+                "ParentId": "efe24431-2b5e-44ad-bd37-b7e29f3380b6",
                 "position": "absolute",
-                "edgeOffsets": 83.80000305175781
+                "edgeOffsets": {
+                    "left": "81.46667073567708%",
+                    "top": "7.207648007051162%"
+                }
             },
             "children": [],
-            "id": "b15b9a95-d45c-4452-8e36-7aa9523256d8",
-            "thunkableVersion": 432,
-            "name": "Nav_button_profilescreen"
+            "id": "11c2df04-c6e4-473b-a553-5d280af9763f",
+            "thunkableVersion": 433,
+            "name": "Exit Button 2"
         },
         {
             "type": "Label",
@@ -178,63 +225,9 @@
                 "TextAlign": "right"
             },
             "children": [],
-            "id": "8e916de5-619e-4abb-9a51-a9091442d01b",
+            "id": "a69574b0-a926-4c78-9e57-565da09a2e61",
             "thunkableVersion": 428,
-            "name": "fullname Label"
-        },
-        {
-            "type": "Button",
-            "translatedName": "Button",
-            "properties": {
-                "Text": "Add Post",
-                "TextColor": "#FFFFFF",
-                "FontSize": 16,
-                "CustomFont": "",
-                "BackgroundColor": "rgba(208, 2, 27, 1)",
-                "Height": 40,
-                "Width": 135,
-                "Visible": true,
-                "X": 121,
-                "Y": 610,
-                "RelativeX": 121,
-                "RelativeY": 610,
-                "ResizeMode": "STRETCH",
-                "style": {
-                    "marginTop": 0,
-                    "marginBottom": 0,
-                    "marginLeft": 0,
-                    "marginRight": 0,
-                    "paddingTop": 0,
-                    "paddingBottom": 0,
-                    "paddingLeft": 0,
-                    "paddingRight": 0,
-                    "borderRadius": 15,
-                    "shadowColor": "rgba(0, 0, 0, 0)",
-                    "shadowOpacity": 0,
-                    "scaledShadowOpacity": 0,
-                    "shadowRadius": 0,
-                    "shadowOffset": {
-                        "width": 0,
-                        "height": 0
-                    },
-                    "position": "absolute",
-                    "left": "58.53333740234375%",
-                    "top": "9.156673494307533%",
-                    "display": "flex"
-                },
-                "FontBold": false,
-                "FontItalic": false,
-                "Raised": false,
-                "Disabled": false,
-                "ParentId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94",
-                "position": "absolute",
-                "edgeOffsets": 610,
-                "Font": "Roboto"
-            },
-            "children": [],
-            "id": "2172d57b-d942-4d8c-b63e-ffc5aec4f1b7",
-            "thunkableVersion": 426,
-            "name": "Post Button"
+            "name": "fullname Label1"
         },
         {
             "type": "Label",
@@ -300,9 +293,9 @@
                 "TextAlign": "right"
             },
             "children": [],
-            "id": "3641b1b9-f186-456f-941a-f0e33d88b40f",
+            "id": "bf7aa2f5-63bf-4f7b-b2ee-ba4dd024e105",
             "thunkableVersion": 426,
-            "name": "Description label"
+            "name": "Description label1"
         },
         {
             "type": "Grid View",
@@ -329,17 +322,17 @@
                         }
                     }
                 },
-                "Height": 336,
-                "Width": 327,
+                "Height": 245,
+                "Width": 329,
                 "Visible": true,
-                "X": 26,
-                "Y": 258,
-                "RelativeX": 26,
-                "RelativeY": 258,
+                "X": 26.80000114440918,
+                "Y": 258.8000183105469,
+                "RelativeX": 26.80000114440918,
+                "RelativeY": 258.8000183105469,
                 "ResizeMode": "STRETCH",
                 "ParentId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94",
                 "position": "absolute",
-                "edgeOffsets": 258,
+                "edgeOffsets": 258.8000183105469,
                 "style": {
                     "position": "absolute",
                     "left": "27.653336588541666%",
@@ -433,8 +426,10 @@
                                 "Alignment": "center"
                             },
                             "children": [],
-                            "id": "95d1c324-d0b8-4edf-820f-e8b8aeba294d",
-                            "thunkableVersion": 433,
+                            "id": "9c9a127a-d636-4544-b0e1-f36ca808eec2",
+                            "thunkableVersion": 426,
+                            "name": "Image2",
+                            "bindingLabel": "Image",
                             "bindings": {
                                 "Picture": {
                                     "type": "COMPONENT_PROPERTY_TABLE_ELEMENT",
@@ -443,9 +438,7 @@
                                     "column": "874101e1-b49b-4f95-9ba0-ae97cb007726",
                                     "row": 0
                                 }
-                            },
-                            "name": "Image",
-                            "bindingLabel": "Image"
+                            }
                         },
                         {
                             "type": "Column",
@@ -545,8 +538,10 @@
                                         "numberOfLines": 1
                                     },
                                     "children": [],
-                                    "id": "4f22da5b-56c1-46bf-b952-6ec22f7cd976",
-                                    "thunkableVersion": 433,
+                                    "id": "6631c9b7-b33d-4da2-946a-d7584525f51d",
+                                    "thunkableVersion": 426,
+                                    "name": "Title1",
+                                    "bindingLabel": "Title",
                                     "bindings": {
                                         "Text": {
                                             "type": "COMPONENT_PROPERTY_TABLE_ELEMENT",
@@ -555,24 +550,24 @@
                                             "column": "c157a835-d400-4f05-adfe-d5163103c88d",
                                             "row": 0
                                         }
-                                    },
-                                    "name": "Title",
-                                    "bindingLabel": "Title"
+                                    }
                                 }
                             ],
-                            "id": "9aad6da9-78db-45a9-b2b8-d1bc2be2ce7f",
-                            "thunkableVersion": 433,
-                            "name": "LabelWrapper"
+                            "id": "43f50e4e-234f-4bb5-9015-5cccbd676a75",
+                            "thunkableVersion": 426,
+                            "name": "LabelWrapper1",
+                            "bindings": {}
                         }
                     ],
-                    "id": "d6ba8ad2-c069-455e-af27-6c0495c593b6",
-                    "thunkableVersion": 433,
-                    "name": "LayoutWrapper"
+                    "id": "defdfe9e-1609-4795-979d-465b60e60898",
+                    "thunkableVersion": 426,
+                    "name": "LayoutWrapper1",
+                    "bindings": {}
                 }
             ],
-            "id": "03bdaa08-4c2b-422c-9a84-05a89031160d",
+            "id": "58460b56-1491-48dd-bfa6-339225b5cb36",
             "thunkableVersion": 426,
-            "name": "Personal_Post_Grid",
+            "name": "Personal_Post_Grid1",
             "bindings": {
                 "DataSourceTableBinding": {
                     "dataSourceLinkId": "17851df7-85fb-4be5-bb8e-cc85967c2d27",
@@ -646,9 +641,9 @@
                 "TextAlign": "right"
             },
             "children": [],
-            "id": "e4f904eb-865a-47f0-8aff-7b7001284c6c",
+            "id": "3b1d524c-dd87-4a5a-9cc9-4c6a3cedd4be",
             "thunkableVersion": 426,
-            "name": "Displayname Label"
+            "name": "Displayname Label1"
         },
         {
             "type": "Image",
@@ -697,9 +692,9 @@
                 "BackgroundColor": "rgba(0, 0, 0, 0)"
             },
             "children": [],
-            "id": "188e74ec-9430-4d9f-b6c2-0dd89b43fc07",
+            "id": "378f9546-757c-47ca-8ccd-2188ff6eecf0",
             "thunkableVersion": 426,
-            "name": "Profile img"
+            "name": "Profile img1"
         },
         {
             "type": "Label",
@@ -765,9 +760,9 @@
                 "Font": "Abril Fatface"
             },
             "children": [],
-            "id": "1b5a56e4-4bee-4c1d-ad89-a20abe5f2caa",
+            "id": "037c2993-f537-4135-b034-c62e21200416",
             "thunkableVersion": 425,
-            "name": "LogoHolder1"
+            "name": "LogoHolder6"
         },
         {
             "type": "Image",
@@ -810,12 +805,13 @@
                 "edgeOffsets": 0
             },
             "children": [],
-            "id": "e60a6f20-894f-4446-8be8-87792dd1e73d",
+            "id": "2e64bd6c-6f48-45f1-8373-96c1e09a15e4",
             "thunkableVersion": 425,
-            "name": "Logo1"
+            "name": "Logo7"
         }
     ],
-    "thunkableVersion": 426,
+    "id": "efe24431-2b5e-44ad-bd37-b7e29f3380b6",
+    "thunkableVersion": 433,
     "bindings": null,
-    "name": "Profile Screen"
+    "name": "Profile Screen Extension"
 }
