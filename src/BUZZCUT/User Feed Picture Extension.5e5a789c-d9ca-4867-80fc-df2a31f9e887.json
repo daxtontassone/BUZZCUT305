@@ -111,62 +111,6 @@
             "name": "exit_button"
         },
         {
-            "type": "Button",
-            "translatedName": "Button",
-            "properties": {
-                "Text": "\u2261",
-                "TextColor": "#FFFFFF",
-                "FontSize": 16,
-                "CustomFont": "",
-                "BackgroundColor": "rgba(208, 2, 27, 1)",
-                "Height": 27,
-                "Width": 27,
-                "Visible": true,
-                "X": 4,
-                "Y": 83,
-                "RelativeX": 4,
-                "RelativeY": 83,
-                "ResizeMode": "STRETCH",
-                "style": {
-                    "marginTop": 0,
-                    "marginBottom": 0,
-                    "marginLeft": 0,
-                    "marginRight": 0,
-                    "paddingTop": 0,
-                    "paddingBottom": 0,
-                    "paddingLeft": 0,
-                    "paddingRight": 0,
-                    "borderRadius": 15,
-                    "shadowColor": "rgba(0, 0, 0, 0)",
-                    "shadowOpacity": 0,
-                    "scaledShadowOpacity": 0,
-                    "shadowRadius": 0,
-                    "shadowOffset": {
-                        "width": 0,
-                        "height": 0
-                    },
-                    "position": "absolute",
-                    "left": "12.666670735677084%",
-                    "top": "18.751875893108135%",
-                    "display": "flex"
-                },
-                "FontBold": false,
-                "FontItalic": false,
-                "Raised": false,
-                "Disabled": false,
-                "ParentId": "5e5a789c-d9ca-4867-80fc-df2a31f9e887",
-                "position": "absolute",
-                "edgeOffsets": {
-                    "left": "12.666670735677084%",
-                    "top": "18.751875893108135%"
-                }
-            },
-            "children": [],
-            "id": "2c774b0b-0c95-431e-a8c7-97fd788f3c99",
-            "thunkableVersion": 432,
-            "name": "Nav_button_userfeed_ext"
-        },
-        {
             "type": "Label",
             "translatedName": "Label",
             "reactType": "Text",
