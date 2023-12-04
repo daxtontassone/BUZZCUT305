@@ -20,9 +20,12 @@
             "profileimage": {
               "type": "string",
               "format": "uri"
+            },
+            "posts": {
+              "type": "string"
             }
           },
-          "required": ["description", "displayname", "fullname", "profileimage"]
+          "required": ["description", "displayname", "fullname", "profileimage","posts"]
         }
       }
     },
