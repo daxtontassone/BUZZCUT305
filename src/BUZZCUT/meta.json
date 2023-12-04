@@ -500,16 +500,6 @@
                     "name": "post list",
                     "screenId": "25f37915-c7f4-4306-8a6c-8d104dffe547"
                 },
-                "e954c599-4ce1-4e6a-b7dd-2a5d04c45aea": {
-                    "scope": "APP",
-                    "name": "selceted_user_id",
-                    "screenId": "568a054d-148b-4edb-8729-0b797142edfc"
-                },
-                "45939be0-2f44-483b-83f3-fcaab15b5c52": {
-                    "scope": "APP",
-                    "name": "selected_post_id",
-                    "screenId": "568a054d-148b-4edb-8729-0b797142edfc"
-                },
                 "69d7070e-7a36-416c-9837-5538be0c8570": {
                     "scope": "APP",
                     "name": "selected_post_id",
@@ -520,15 +510,10 @@
                     "name": "selected_user_id",
                     "screenId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94"
                 },
-                "f300439f-0d9d-4984-a460-bae609087285": {
-                    "scope": "APP",
-                    "name": "post_list",
-                    "screenId": "efe24431-2b5e-44ad-bd37-b7e29f3380b6"
-                },
                 "88a4ece4-a8c8-4db4-9be8-6236c3e45cef": {
                     "scope": "APP",
-                    "name": "post_list",
-                    "screenId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94"
+                    "name": "feed_list",
+                    "screenId": "568a054d-148b-4edb-8729-0b797142edfc"
                 }
             },
             "defaultDesignerDevice": "PHONE",
