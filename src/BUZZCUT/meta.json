@@ -133,6 +133,25 @@
                     "enabledFeatures": {
                         "iap": false
                     }
+                },
+                "c664ae5f-1f33-4c32-b512-41d6134902dd": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [
+                            "android.permission.ACCESS_COARSE_LOCATION",
+                            "android.permission.ACCESS_FINE_LOCATION"
+                        ],
+                        "ios": [
+                            {
+                                "name": "NSLocationWhenInUseUsageDescription",
+                                "label": "Location",
+                                "hint": "Describe why your app uses location."
+                            }
+                        ]
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
                 }
             },
             "categories": [],
@@ -188,6 +207,9 @@
                                 "id": "00d534bc-a73f-4e05-956a-d7ff87c2f230"
                             },
                             {
+                                "id": "c664ae5f-1f33-4c32-b512-41d6134902dd"
+                            },
+                            {
                                 "id": "25f37915-c7f4-4306-8a6c-8d104dffe547"
                             }
                         ],
@@ -232,7 +254,9 @@
                 "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {}
+                        "usageDescriptions": {
+                            "NSLocationWhenInUseUsageDescription": ""
+                        }
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -278,7 +302,9 @@
                 "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {}
+                        "usageDescriptions": {
+                            "NSLocationWhenInUseUsageDescription": ""
+                        }
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -512,8 +538,28 @@
                 },
                 "88a4ece4-a8c8-4db4-9be8-6236c3e45cef": {
                     "scope": "APP",
-                    "name": "feed_list",
-                    "screenId": "568a054d-148b-4edb-8729-0b797142edfc"
+                    "name": "post_list",
+                    "screenId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94"
+                },
+                "3ebf659f-42ae-47b5-b638-f796450aeeae": {
+                    "scope": "APP",
+                    "name": "lat",
+                    "screenId": "c664ae5f-1f33-4c32-b512-41d6134902dd"
+                },
+                "63adff11-840b-4645-9d36-14cbdbc0320a": {
+                    "scope": "APP",
+                    "name": "lng",
+                    "screenId": "c664ae5f-1f33-4c32-b512-41d6134902dd"
+                },
+                "4c23ad73-a392-4773-a15c-1078b18ce9b0": {
+                    "scope": "APP",
+                    "name": "title",
+                    "screenId": "c664ae5f-1f33-4c32-b512-41d6134902dd"
+                },
+                "65d7e929-b707-4e00-855d-561f537e1d20": {
+                    "scope": "APP",
+                    "name": "desc",
+                    "screenId": "c664ae5f-1f33-4c32-b512-41d6134902dd"
                 }
             },
             "defaultDesignerDevice": "PHONE",

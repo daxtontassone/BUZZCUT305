@@ -184,7 +184,7 @@
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "Label",
+                "Text": "",
                 "FontSize": 18,
                 "CustomFont": "",
                 "LineHeight": 1,
@@ -237,7 +237,7 @@
                 "ParentId": "5e5a789c-d9ca-4867-80fc-df2a31f9e887",
                 "position": "absolute",
                 "edgeOffsets": 480,
-                "children": "Label"
+                "children": ""
             },
             "children": [],
             "id": "8f730b08-b8eb-45c0-badb-47eff1bce450",
@@ -329,7 +329,7 @@
                     "paddingLeft": 0,
                     "paddingRight": 0,
                     "flexWrap": "wrap",
-                    "borderWidth": 0.5,
+                    "borderWidth": 0,
                     "borderRadius": 0,
                     "borderColor": "rgba(255, 255, 255, 1)",
                     "borderStyle": "solid",
