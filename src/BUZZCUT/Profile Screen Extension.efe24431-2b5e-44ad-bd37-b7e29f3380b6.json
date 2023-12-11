@@ -1,4 +1,5 @@
 {
+    "id": "efe24431-2b5e-44ad-bd37-b7e29f3380b6",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -765,7 +766,6 @@
             "name": "Logo7"
         }
     ],
-    "id": "efe24431-2b5e-44ad-bd37-b7e29f3380b6",
     "thunkableVersion": 433,
     "bindings": null,
     "name": "Profile Screen Extension"
