@@ -327,12 +327,12 @@
             "properties": {
                 "value": true,
                 "Visible": true,
-                "Height": 23,
-                "Width": 46,
-                "X": 302.796875,
-                "Y": 374.796875,
+                "Height": 21,
+                "Width": 42,
+                "X": 301,
+                "Y": 373,
                 "position": "absolute",
-                "edgeOffsets": 374.796875,
+                "edgeOffsets": 373,
                 "style": {
                     "position": "absolute",
                     "left": "58.4%",
@@ -347,8 +347,8 @@
                     }
                 },
                 "ParentId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4",
-                "RelativeX": 302.796875,
-                "RelativeY": 374.796875,
+                "RelativeX": 301,
+                "RelativeY": 373,
                 "thumbTintColor": "rgba(255, 255, 255, 1)",
                 "onTintColor": "rgba(208, 2, 27, 1)",
                 "tintColor": "rgba(255, 255, 255, 1)",

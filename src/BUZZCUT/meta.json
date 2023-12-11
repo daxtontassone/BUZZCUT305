@@ -21,7 +21,24 @@
                     ]
                 }
             },
-            "assets": {},
+            "assets": {
+                "657741931340ffeb9092c1b8": {
+                    "externalStorageType": "GCS",
+                    "_id": "657741931340ffeb9092c1b8",
+                    "size": "84174",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "scissors-310134_960_720.png",
+                    "backendURI": "/project/65410ec55ab0476e329558fb/getasset/657741931340ffeb9092c1b8",
+                    "name": "scissors-310134_960_720.png",
+                    "externalName": "users/64f9d0b906d0f0626e5bb13e/projects/65410ec55ab0476e329558fb/assets/657741931340ffeb9092c1b8",
+                    "createdAt": "2023-12-11T17:06:27.315Z",
+                    "updatedAt": "2023-12-11T17:06:27.315Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9d0b906d0f0626e5bb13e/projects/65410ec55ab0476e329558fb/assets/657741931340ffeb9092c1b8?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231211%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231211T170627Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=54a7f4561f530f2d64414ce11d4232a2d2bc8b5a518efcc2a7e6eca25c8d57a23a892af1de37fb934b96064954a7d20748eba77cb683e380ecbe6b744de2dc11e5f5c24e05850dacaed628a5cecb6263e3137c9150f24e1dfc56ff883670d4b2e42996145e275969b4922cb2402c2602d9290427142c09365d3a2c1c82b0e13157b6e9b119dc7bed1e91b3f7a65f94f55073e6fc4cb19ae629a97f6aef6bb595f1dec527dfbb490c055579737c9da72e7292996b15b7f2b51b2fa5331487b5bb337326f2892c8685905355dfe9447b7420e59cc03df36e29f6df088f416f8dd0f4882ca405571d5f0073aec38dd422d6f480fe89ea94381d0eb032ba7b8e34c4",
+                    "signedUrlExpirationTime": 1702487187353
+                }
+            },
             "backendUpgradeVersion": 23,
             "blockly": {
                 "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4": {
@@ -133,25 +150,6 @@
                     "enabledFeatures": {
                         "iap": false
                     }
-                },
-                "c664ae5f-1f33-4c32-b512-41d6134902dd": {
-                    "xml": "",
-                    "permissions": {
-                        "android": [
-                            "android.permission.ACCESS_COARSE_LOCATION",
-                            "android.permission.ACCESS_FINE_LOCATION"
-                        ],
-                        "ios": [
-                            {
-                                "name": "NSLocationWhenInUseUsageDescription",
-                                "label": "Location",
-                                "hint": "Describe why your app uses location."
-                            }
-                        ]
-                    },
-                    "enabledFeatures": {
-                        "iap": false
-                    }
                 }
             },
             "categories": [],
@@ -207,9 +205,6 @@
                                 "id": "00d534bc-a73f-4e05-956a-d7ff87c2f230"
                             },
                             {
-                                "id": "c664ae5f-1f33-4c32-b512-41d6134902dd"
-                            },
-                            {
                                 "id": "25f37915-c7f4-4306-8a6c-8d104dffe547"
                             }
                         ],
@@ -254,9 +249,7 @@
                 "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSLocationWhenInUseUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -302,9 +295,7 @@
                 "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {
-                            "NSLocationWhenInUseUsageDescription": ""
-                        }
+                        "usageDescriptions": {}
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -538,28 +529,13 @@
                 },
                 "88a4ece4-a8c8-4db4-9be8-6236c3e45cef": {
                     "scope": "APP",
-                    "name": "post_list",
-                    "screenId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94"
+                    "name": "feed_list",
+                    "screenId": "568a054d-148b-4edb-8729-0b797142edfc"
                 },
-                "3ebf659f-42ae-47b5-b638-f796450aeeae": {
-                    "scope": "APP",
-                    "name": "lat",
-                    "screenId": "c664ae5f-1f33-4c32-b512-41d6134902dd"
-                },
-                "63adff11-840b-4645-9d36-14cbdbc0320a": {
-                    "scope": "APP",
-                    "name": "lng",
-                    "screenId": "c664ae5f-1f33-4c32-b512-41d6134902dd"
-                },
-                "4c23ad73-a392-4773-a15c-1078b18ce9b0": {
-                    "scope": "APP",
-                    "name": "title",
-                    "screenId": "c664ae5f-1f33-4c32-b512-41d6134902dd"
-                },
-                "65d7e929-b707-4e00-855d-561f537e1d20": {
-                    "scope": "APP",
-                    "name": "desc",
-                    "screenId": "c664ae5f-1f33-4c32-b512-41d6134902dd"
+                "d9ae9023-5b1c-4483-aac3-a252dfbd37f1": {
+                    "scope": "STORED",
+                    "name": "is_barber",
+                    "screenId": "b71302b4-dcd5-4f84-87c6-907d4b8c02db"
                 }
             },
             "defaultDesignerDevice": "PHONE",
