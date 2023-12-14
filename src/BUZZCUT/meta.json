@@ -35,8 +35,8 @@
                     "createdAt": "2023-12-11T17:06:27.315Z",
                     "updatedAt": "2023-12-11T17:06:27.315Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9d0b906d0f0626e5bb13e/projects/65410ec55ab0476e329558fb/assets/657741931340ffeb9092c1b8?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231211%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231211T170627Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=54a7f4561f530f2d64414ce11d4232a2d2bc8b5a518efcc2a7e6eca25c8d57a23a892af1de37fb934b96064954a7d20748eba77cb683e380ecbe6b744de2dc11e5f5c24e05850dacaed628a5cecb6263e3137c9150f24e1dfc56ff883670d4b2e42996145e275969b4922cb2402c2602d9290427142c09365d3a2c1c82b0e13157b6e9b119dc7bed1e91b3f7a65f94f55073e6fc4cb19ae629a97f6aef6bb595f1dec527dfbb490c055579737c9da72e7292996b15b7f2b51b2fa5331487b5bb337326f2892c8685905355dfe9447b7420e59cc03df36e29f6df088f416f8dd0f4882ca405571d5f0073aec38dd422d6f480fe89ea94381d0eb032ba7b8e34c4",
-                    "signedUrlExpirationTime": 1702487187353
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9d0b906d0f0626e5bb13e/projects/65410ec55ab0476e329558fb/assets/657741931340ffeb9092c1b8?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231214%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231214T024408Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=99987e7676ab0844edd26f9da54ef7cc7593bed661ec4c4a949efce4a4c553217c5f3946a97aa5779526069a603c56aa3b4e7fab48439bf6df97096037eb3e4eaf99adebd164071cc7e55b00aa081345d69e6a70b4ce5607cd48ea6ec59450f8752a84572ddf276d8b0631c57b307c9bd3ec6b3fc6c14a7fa238731b434f7d16ea2ca6bbe8bdc23bf0a2f31c8482d603bf13fcc7b76bb8bf4481650fd7abcd44ebcf54f6aee8147178740f45060e2c6e02b56c68757361e1b4f43a01e3c29e7ea268fca1b1e24a0ae9c4da8801924671916e192a5a8cfb3aad0628c880ee8001160941f85d9ce301315aab4cef98b385d2787bfec0c01a594e5bc5f740b22a06",
+                    "signedUrlExpirationTime": 1702694648602
                 }
             },
             "backendUpgradeVersion": 23,
@@ -62,6 +62,11 @@
                                 "name": "NSPhotoLibraryUsageDescription",
                                 "label": "Photos",
                                 "hint": "Describe why your app uses photos."
+                            },
+                            {
+                                "name": "NSCameraUsageDescription",
+                                "label": "Camera",
+                                "hint": "Describe why your app uses the camera."
                             }
                         ]
                     },
@@ -272,7 +277,8 @@
                 "permissions": {
                     "ios": {
                         "usageDescriptions": {
-                            "NSLocationWhenInUseUsageDescription": ""
+                            "NSPhotoLibraryUsageDescription": "",
+                            "NSCameraUsageDescription": ""
                         }
                     }
                 },
@@ -320,7 +326,8 @@
                 "permissions": {
                     "ios": {
                         "usageDescriptions": {
-                            "NSLocationWhenInUseUsageDescription": ""
+                            "NSPhotoLibraryUsageDescription": "",
+                            "NSCameraUsageDescription": ""
                         }
                     }
                 },
