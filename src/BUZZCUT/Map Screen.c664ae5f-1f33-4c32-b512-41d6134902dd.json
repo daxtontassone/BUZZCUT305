@@ -1,4 +1,5 @@
 {
+    "id": "c664ae5f-1f33-4c32-b512-41d6134902dd",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -468,7 +469,6 @@
             "name": "Nav_button_mapscreen"
         }
     ],
-    "id": "c664ae5f-1f33-4c32-b512-41d6134902dd",
     "thunkableVersion": 434,
     "name": "Map Screen"
 }
