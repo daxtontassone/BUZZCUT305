@@ -415,7 +415,8 @@
                         "Disabled": false,
                         "ParentId": "25f37915-c7f4-4306-8a6c-8d104dffe547",
                         "position": "absolute",
-                        "edgeOffsets": 530
+                        "edgeOffsets": 530,
+                        "Font": "Roboto"
                     },
                     "children": [],
                     "id": "6c109e31-3bf8-42f9-a569-4e14e77ba66c",
@@ -469,7 +470,8 @@
                         "Disabled": false,
                         "ParentId": "25f37915-c7f4-4306-8a6c-8d104dffe547",
                         "position": "absolute",
-                        "edgeOffsets": 530
+                        "edgeOffsets": 530,
+                        "Font": "Roboto"
                     },
                     "children": [],
                     "id": "6cc56217-bee8-4cc4-b02c-fe3d08ebd62b",
