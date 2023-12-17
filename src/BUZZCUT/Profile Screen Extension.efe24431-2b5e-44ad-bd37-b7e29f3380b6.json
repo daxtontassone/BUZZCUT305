@@ -937,51 +937,6 @@
             "id": "037c2993-f537-4135-b034-c62e21200416",
             "thunkableVersion": 425,
             "name": "LogoHolder6"
-        },
-        {
-            "type": "Image",
-            "translatedName": "Image",
-            "properties": {
-                "resizeMode": "stretch",
-                "Height": 78,
-                "Width": 375,
-                "Visible": true,
-                "X": 0,
-                "Y": 0,
-                "RelativeX": 0,
-                "RelativeY": 0,
-                "ResizeMode": "STRETCH",
-                "style": {
-                    "marginTop": 0,
-                    "marginBottom": 0,
-                    "marginLeft": 0,
-                    "marginRight": 0,
-                    "paddingTop": 0,
-                    "paddingBottom": 0,
-                    "paddingLeft": 0,
-                    "paddingRight": 0,
-                    "shadowColor": "rgba(0, 0, 0, 0)",
-                    "shadowOpacity": 0,
-                    "scaledShadowOpacity": 0,
-                    "shadowRadius": 0,
-                    "shadowOffset": {
-                        "width": 0,
-                        "height": 0
-                    },
-                    "position": "absolute",
-                    "left": "27.6%",
-                    "top": "2.278157796101949%",
-                    "display": "flex"
-                },
-                "capInsets": {},
-                "ParentId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4",
-                "position": "absolute",
-                "edgeOffsets": 0
-            },
-            "children": [],
-            "id": "2e64bd6c-6f48-45f1-8373-96c1e09a15e4",
-            "thunkableVersion": 425,
-            "name": "Logo7"
         }
     ],
     "thunkableVersion": 433,

@@ -459,52 +459,6 @@
                     "type": "DATA_SOURCE_TABLE"
                 }
             }
-        },
-        {
-            "type": "Image",
-            "translatedName": "Image",
-            "properties": {
-                "resizeMode": "stretch",
-                "Height": 78,
-                "Width": 375,
-                "Visible": true,
-                "X": 0,
-                "Y": 0,
-                "RelativeX": 0,
-                "RelativeY": 0,
-                "ResizeMode": "STRETCH",
-                "style": {
-                    "marginTop": 0,
-                    "marginBottom": 0,
-                    "marginLeft": 0,
-                    "marginRight": 0,
-                    "paddingTop": 0,
-                    "paddingBottom": 0,
-                    "paddingLeft": 0,
-                    "paddingRight": 0,
-                    "shadowColor": "rgba(0, 0, 0, 0)",
-                    "shadowOpacity": 0,
-                    "scaledShadowOpacity": 0,
-                    "shadowRadius": 0,
-                    "shadowOffset": {
-                        "width": 0,
-                        "height": 0
-                    },
-                    "position": "absolute",
-                    "left": "27.6%",
-                    "top": "2.278157796101949%",
-                    "display": "flex"
-                },
-                "capInsets": {},
-                "ParentId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4",
-                "position": "absolute",
-                "edgeOffsets": 0
-            },
-            "children": [],
-            "id": "02f05f09-f730-4ebc-8b5b-a3237365a25d",
-            "thunkableVersion": 426,
-            "bindings": null,
-            "name": "Logo4"
         }
     ],
     "thunkableVersion": 426,
