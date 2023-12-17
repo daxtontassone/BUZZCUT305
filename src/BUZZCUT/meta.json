@@ -1,0 +1,584 @@
+{
+    "data": {
+        "project": {
+            "apiComponents": {
+                "ApiContainer": {
+                    "id": "ApiContainer",
+                    "children": [
+                        {
+                            "type": "Web API",
+                            "translatedName": "Web API",
+                            "isApi": true,
+                            "reactType": "Web",
+                            "properties": {
+                                "URL": "https://www.uuidtools.com/api/generate/v4"
+                            },
+                            "children": [],
+                            "id": "c735c0da-eaa1-4588-8db7-35b734873f98",
+                            "thunkableVersion": 426,
+                            "name": "Post_ID_creation"
+                        }
+                    ]
+                }
+            },
+            "assets": {
+                "657741931340ffeb9092c1b8": {
+                    "externalStorageType": "GCS",
+                    "_id": "657741931340ffeb9092c1b8",
+                    "size": "84174",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "scissors-310134_960_720.png",
+                    "backendURI": "/project/65410ec55ab0476e329558fb/getasset/657741931340ffeb9092c1b8",
+                    "name": "scissors-310134_960_720.png",
+                    "externalName": "users/64f9d0b906d0f0626e5bb13e/projects/65410ec55ab0476e329558fb/assets/657741931340ffeb9092c1b8",
+                    "createdAt": "2023-12-11T17:06:27.315Z",
+                    "updatedAt": "2023-12-11T17:06:27.315Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9d0b906d0f0626e5bb13e/projects/65410ec55ab0476e329558fb/assets/657741931340ffeb9092c1b8?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231217%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231217T014623Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=104d51f13df346550b37fa350fae2d5603e409560dd30a98c104106218dfcdf8b79d8ef798048d5b73e9164c1b19c940c8cd6804067b8409afca2787ba75b2930c2eca877d5f16153f6346edbf454691bc18bd5ef8960b159760ab03c036262ef4504aa39033360cc92e958d09d9b216d37beefb1cb8a4fb2565877b615b4e23c5a14e01016748fa19c3b7dc99bf1d5f6146409e3a40382dbd4488322543d1f35d55b087416dff40bf23570ed35b9c5cc0e57b379d71a2743ef43f8acf7290fee5a281329d81f2cf0fbc0c3858699d1c5b74916676216c89579267f95200bfdbdf3b49165d308177fde487271126c6e34cc70889068bd4e4ee2c059e03d17971",
+                    "signedUrlExpirationTime": 1702950383964
+                }
+            },
+            "backendUpgradeVersion": 23,
+            "blockly": {
+                "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "25f37915-c7f4-4306-8a6c-8d104dffe547": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [
+                            "android.permission.CAMERA"
+                        ],
+                        "ios": [
+                            {
+                                "name": "NSPhotoLibraryUsageDescription",
+                                "label": "Photos",
+                                "hint": "Describe why your app uses photos."
+                            },
+                            {
+                                "name": "NSCameraUsageDescription",
+                                "label": "Camera",
+                                "hint": "Describe why your app uses the camera."
+                            }
+                        ]
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "65369c3636920c57f98921e1": {},
+                "8d4c257e-b01f-4e2c-afe4-74c1c7758e94": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "5e5a789c-d9ca-4867-80fc-df2a31f9e887": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "00d534bc-a73f-4e05-956a-d7ff87c2f230": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [
+                            "android.permission.CAMERA"
+                        ],
+                        "ios": [
+                            {
+                                "name": "NSCameraUsageDescription",
+                                "label": "Camera",
+                                "hint": "Describe why your app uses the camera."
+                            },
+                            {
+                                "name": "NSPhotoLibraryUsageDescription",
+                                "label": "Photos",
+                                "hint": "Describe why your app uses photos."
+                            }
+                        ]
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "568a054d-148b-4edb-8729-0b797142edfc": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "b71302b4-dcd5-4f84-87c6-907d4b8c02db": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [
+                            "android.permission.CAMERA"
+                        ],
+                        "ios": [
+                            {
+                                "name": "NSPhotoLibraryUsageDescription",
+                                "label": "Photos",
+                                "hint": "Describe why your app uses photos."
+                            }
+                        ]
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "efe24431-2b5e-44ad-bd37-b7e29f3380b6": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                },
+                "c664ae5f-1f33-4c32-b512-41d6134902dd": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [
+                            "android.permission.ACCESS_COARSE_LOCATION",
+                            "android.permission.ACCESS_FINE_LOCATION"
+                        ],
+                        "ios": [
+                            {
+                                "name": "NSLocationWhenInUseUsageDescription",
+                                "label": "Location",
+                                "hint": "Describe why your app uses location."
+                            }
+                        ]
+                    },
+                    "enabledFeatures": {
+                        "iap": false
+                    }
+                }
+            },
+            "categories": [],
+            "components": {
+                "children": [
+                    {
+                        "id": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4"
+                    },
+                    {
+                        "id": "b71302b4-dcd5-4f84-87c6-907d4b8c02db"
+                    },
+                    {
+                        "id": "efe24431-2b5e-44ad-bd37-b7e29f3380b6"
+                    },
+                    {
+                        "id": "5e5a789c-d9ca-4867-80fc-df2a31f9e887"
+                    },
+                    {
+                        "type": "Drawer Navigator",
+                        "translatedName": "Drawer Navigator",
+                        "reactType": "DrawerNavigator",
+                        "properties": {
+                            "DrawerPosition": "left",
+                            "TabNavigationOptions": {
+                                "tabBarVisible": true
+                            },
+                            "config": {
+                                "drawerPosition": "left",
+                                "contentOptions": {
+                                    "drawerPosition": "left",
+                                    "drawerActiveBackgroundColor": "rgba(2, 2, 2, 0.1)",
+                                    "drawerInactiveBackgroundColor": "rgba(255, 255, 255, 1)",
+                                    "drawerActiveTintColor": "rgba(208, 2, 27, 1)",
+                                    "drawerInactiveTintColor": "rgba(74, 144, 226, 1)"
+                                }
+                            },
+                            "navigationOptions": {
+                                "tabBarVisible": true
+                            },
+                            "activeBackgroundColor": "rgba(2, 2, 2, 0.1)",
+                            "inactiveBackgroundColor": "rgba(255, 255, 255, 1)",
+                            "activeTintColor": "rgba(208, 2, 27, 1)",
+                            "inactiveTintColor": "rgba(74, 144, 226, 1)"
+                        },
+                        "children": [
+                            {
+                                "id": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94"
+                            },
+                            {
+                                "id": "568a054d-148b-4edb-8729-0b797142edfc"
+                            },
+                            {
+                                "id": "00d534bc-a73f-4e05-956a-d7ff87c2f230"
+                            },
+                            {
+                                "id": "c664ae5f-1f33-4c32-b512-41d6134902dd"
+                            },
+                            {
+                                "id": "25f37915-c7f4-4306-8a6c-8d104dffe547"
+                            }
+                        ],
+                        "id": "74db74f4-c741-4ab6-bfb2-43eb27c0ff57",
+                        "thunkableVersion": 267,
+                        "name": "Drawer_Navigator1"
+                    }
+                ]
+            },
+            "figmaComponents": {},
+            "description": null,
+            "icon": null,
+            "projectName": "Buzzcut",
+            "settings": {
+                "teamId": null,
+                "appName": "Buzzcut",
+                "icon": null,
+                "autoIncrementVersion": true,
+                "ignoreNotchArea": false,
+                "notchAreaColor": null,
+                "androidVersionName": "3",
+                "androidVersionCode": 3,
+                "iosVersionNumber": "3",
+                "iosBuildNumber": "1",
+                "firebaseAPIKey": "AIzaSyBdN2i6EyZYZJcQ8mtDaTyDDShxDLxSa0A",
+                "firebaseDatabaseURL": "https://buzzcut305-default-rtdb.firebaseio.com",
+                "stripePublishableKeyTest": "",
+                "stripePublishableKeyLive": "",
+                "stripeAccountId": null,
+                "stripeTestMode": true,
+                "isPublic": true,
+                "description": null,
+                "mobileTutorial": null,
+                "pushNotificationAndroidAppId": null,
+                "pushNotificationIOSAppId": null,
+                "pushNotificationGeolocationEnabled": null,
+                "yandexAPIKey": "",
+                "imageRecognizerServerURL": "",
+                "imageRecognizerSubscriptionKey": "",
+                "cloudName": "",
+                "cloudinaryAPIKey": "",
+                "cloudinaryAPISecret": "",
+                "permissions": {
+                    "ios": {
+                        "usageDescriptions": {
+                            "NSLocationWhenInUseUsageDescription": ""
+                        }
+                    }
+                },
+                "googleMapAPIKeyAndroid": null,
+                "googleMapAPIKeyIOS": null,
+                "googleOAuthiOSClientID": null,
+                "googleOAuthiOSURLScheme": null,
+                "googleOAuthWebClientID": null,
+                "appleOAuthWebClientID": null,
+                "appleOAuthWebRedirectURI": null,
+                "admobAppIdIOS": null,
+                "admobAppIdAndroid": null,
+                "admobUserTrackingUsageDescription": null,
+                "__typename": "ProjectSettings"
+            },
+            "projectSettings": {
+                "teamId": null,
+                "appName": "Buzzcut",
+                "icon": null,
+                "autoIncrementVersion": true,
+                "ignoreNotchArea": false,
+                "notchAreaColor": null,
+                "androidVersionName": "3",
+                "androidVersionCode": 3,
+                "iosVersionNumber": "3",
+                "iosBuildNumber": "1",
+                "firebaseAPIKey": "AIzaSyBdN2i6EyZYZJcQ8mtDaTyDDShxDLxSa0A",
+                "firebaseDatabaseURL": "https://buzzcut305-default-rtdb.firebaseio.com",
+                "stripePublishableKeyTest": "",
+                "stripePublishableKeyLive": "",
+                "stripeAccountId": null,
+                "stripeTestMode": true,
+                "isPublic": true,
+                "description": null,
+                "mobileTutorial": null,
+                "pushNotificationAndroidAppId": null,
+                "pushNotificationIOSAppId": null,
+                "pushNotificationGeolocationEnabled": null,
+                "yandexAPIKey": "",
+                "imageRecognizerServerURL": "",
+                "imageRecognizerSubscriptionKey": "",
+                "cloudName": "",
+                "cloudinaryAPIKey": "",
+                "cloudinaryAPISecret": "",
+                "permissions": {
+                    "ios": {
+                        "usageDescriptions": {
+                            "NSLocationWhenInUseUsageDescription": ""
+                        }
+                    }
+                },
+                "googleMapAPIKeyAndroid": null,
+                "googleMapAPIKeyIOS": null,
+                "googleOAuthiOSClientID": null,
+                "googleOAuthiOSURLScheme": null,
+                "googleOAuthWebClientID": null,
+                "appleOAuthWebClientID": null,
+                "appleOAuthWebRedirectURI": null,
+                "admobAppIdIOS": null,
+                "admobAppIdAndroid": null,
+                "admobUserTrackingUsageDescription": null,
+                "__typename": "ProjectSettings"
+            },
+            "hasAdmob": false,
+            "hasBluetoothLowEnergy": null,
+            "hasPushNotification": false,
+            "hasAssistant": null,
+            "dataSourceLinks": [],
+            "localDataSources": [
+                {
+                    "id": "17851df7-85fb-4be5-bb8e-cc85967c2d27",
+                    "dataSource": {
+                        "id": "e4210aec-a481-44be-8381-c95ef162e098",
+                        "name": "post_display",
+                        "owner": "64f6078fe0fc7e6bbf2bf042",
+                        "collections": [
+                            {
+                                "id": "39a089cb-b5ee-4ab0-9ed4-ef6675944463",
+                                "name": "Table 1",
+                                "label": "Table 1",
+                                "fields": [
+                                    {
+                                        "id": "874101e1-b49b-4f95-9ba0-ae97cb007726",
+                                        "name": "column1",
+                                        "label": "img_url",
+                                        "type": "STRING"
+                                    },
+                                    {
+                                        "id": "c157a835-d400-4f05-adfe-d5163103c88d",
+                                        "label": "description",
+                                        "name": "column",
+                                        "type": "STRING"
+                                    },
+                                    {
+                                        "id": "d6cd7281-84e5-4e0c-abd0-18bb9d0e3419",
+                                        "label": "post_ID",
+                                        "name": "post_ID",
+                                        "type": "STRING"
+                                    }
+                                ],
+                                "data": {
+                                    "edges": [
+                                        {
+                                            "cursor": "9c95793e-d3db-4ca7-9018-ba7e16b31563",
+                                            "node": {
+                                                "id": "c36f4f7a-4828-45fc-a32b-851e941b0989",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "874101e1-b49b-4f95-9ba0-ae97cb007726",
+                                                        "value": ""
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "configuration": {
+                            "id": "9b7d0bd6-bd70-42be-ae24-c593057197fc",
+                            "name": "post_display",
+                            "owner": "64f6078fe0fc7e6bbf2bf042",
+                            "type": "IN_MEMORY"
+                        }
+                    }
+                },
+                {
+                    "id": "532f88d6-dc19-44b1-a592-af14227ea439",
+                    "dataSource": {
+                        "id": "aac055ea-c9b7-4ca8-8451-f95f13b4b639",
+                        "name": "feed_display",
+                        "owner": "64f9d0b906d0f0626e5bb13e",
+                        "collections": [
+                            {
+                                "id": "a6167857-f23b-4131-8a25-e46023ebb804",
+                                "name": "Table 1",
+                                "label": "Table 1",
+                                "fields": [
+                                    {
+                                        "id": "8bd862c8-46f3-475c-8536-59b334cc7312",
+                                        "name": "column1",
+                                        "label": "image_url",
+                                        "type": "STRING"
+                                    },
+                                    {
+                                        "id": "c532a89a-3305-4daf-8a21-69cf9968b5b4",
+                                        "name": "column2",
+                                        "label": "description",
+                                        "type": "NUMBER"
+                                    },
+                                    {
+                                        "id": "d8125bee-6e26-4cba-b0fb-ac9c55f9c7a0",
+                                        "label": "post_ID",
+                                        "name": "post_ID",
+                                        "type": "STRING"
+                                    }
+                                ],
+                                "data": {
+                                    "edges": [
+                                        {
+                                            "cursor": "79448952-e581-4c94-bd3d-f56a32ca61ed",
+                                            "node": {
+                                                "id": "4257c520-318d-49d4-abe3-e5a6a22b3a0e",
+                                                "values": [
+                                                    {
+                                                        "fieldId": "8bd862c8-46f3-475c-8536-59b334cc7312",
+                                                        "value": ""
+                                                    },
+                                                    {
+                                                        "fieldId": "c532a89a-3305-4daf-8a21-69cf9968b5b4",
+                                                        "value": ""
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "configuration": {
+                            "id": "c424d520-4ad4-4a00-97c7-f5e1f47707f3",
+                            "name": "feed_display",
+                            "owner": "64f9d0b906d0f0626e5bb13e",
+                            "type": "LOCAL"
+                        }
+                    }
+                }
+            ],
+            "customProperties": [],
+            "modules": [],
+            "usesDragDropUi": true,
+            "totalCopy": "0",
+            "totalStar": "0",
+            "starAction": "star",
+            "variables": {
+                "3c39e085-e153-416f-a486-b4267a3f1df2": {
+                    "scope": "APP",
+                    "name": "post_ID",
+                    "screenId": "00d534bc-a73f-4e05-956a-d7ff87c2f230"
+                },
+                "8db35bc6-20e9-4d6f-b01d-35109f2b75f4": {
+                    "scope": "APP",
+                    "name": "img_URL",
+                    "screenId": "00d534bc-a73f-4e05-956a-d7ff87c2f230"
+                },
+                "6b87aedc-b86a-47c7-8a22-7b037b138213": {
+                    "scope": "APP",
+                    "name": "currentlySigningUp",
+                    "screenId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4"
+                },
+                "de2648d3-b8c8-4792-90a8-f0146ee120c2": {
+                    "scope": "STORED",
+                    "name": "email",
+                    "screenId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4"
+                },
+                "ee07e1a1-8a94-41db-9a81-070a794c008c": {
+                    "scope": "STORED",
+                    "name": "password",
+                    "screenId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4"
+                },
+                "31605c78-7923-42a5-b2a2-b54fc023eb2c": {
+                    "scope": "APP",
+                    "name": "session email",
+                    "screenId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4"
+                },
+                "71e1b0fc-d23a-4771-8899-00816d2bb22a": {
+                    "scope": "STORED",
+                    "name": "user ID",
+                    "screenId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4"
+                },
+                "d16073ac-f06a-4e64-be03-5f194771277e": {
+                    "scope": "APP",
+                    "name": "checkSetFullName",
+                    "screenId": "b71302b4-dcd5-4f84-87c6-907d4b8c02db"
+                },
+                "16d63171-066a-49c6-979d-11d06510591c": {
+                    "scope": "APP",
+                    "name": "checkSetDisplayName",
+                    "screenId": "b71302b4-dcd5-4f84-87c6-907d4b8c02db"
+                },
+                "5c84099f-2080-415d-abe9-8404d02f5185": {
+                    "scope": "APP",
+                    "name": "checkSetDesc",
+                    "screenId": "b71302b4-dcd5-4f84-87c6-907d4b8c02db"
+                },
+                "2ca5b539-8db6-44e4-89b3-a41639cedc14": {
+                    "scope": "APP",
+                    "name": "checkSetPic",
+                    "screenId": "b71302b4-dcd5-4f84-87c6-907d4b8c02db"
+                },
+                "7b386250-42ab-40ac-99ef-625e93ae6a88": {
+                    "scope": "STORED",
+                    "name": "saved_display_name",
+                    "screenId": "b71302b4-dcd5-4f84-87c6-907d4b8c02db"
+                },
+                "1fc04278-4558-4353-9f8c-b4554b710361": {
+                    "scope": "APP",
+                    "name": "description",
+                    "screenId": "00d534bc-a73f-4e05-956a-d7ff87c2f230"
+                },
+                "b3a9e079-f52f-46fb-959a-d2d15e4b3bce": {
+                    "scope": "APP",
+                    "name": "exit",
+                    "screenId": "568a054d-148b-4edb-8729-0b797142edfc"
+                },
+                "9b80532c-7a64-43fd-93e6-b918c44902cb": {
+                    "scope": "APP",
+                    "name": "post list",
+                    "screenId": "25f37915-c7f4-4306-8a6c-8d104dffe547"
+                },
+                "69d7070e-7a36-416c-9837-5538be0c8570": {
+                    "scope": "APP",
+                    "name": "selected_post_id",
+                    "screenId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94"
+                },
+                "153a8ca9-0776-482c-877b-6e1dfc33192f": {
+                    "scope": "APP",
+                    "name": "selected_user_id",
+                    "screenId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94"
+                },
+                "88a4ece4-a8c8-4db4-9be8-6236c3e45cef": {
+                    "scope": "APP",
+                    "name": "feed_list",
+                    "screenId": "568a054d-148b-4edb-8729-0b797142edfc"
+                },
+                "d9ae9023-5b1c-4483-aac3-a252dfbd37f1": {
+                    "scope": "STORED",
+                    "name": "is_barber",
+                    "screenId": "b71302b4-dcd5-4f84-87c6-907d4b8c02db"
+                },
+                "8b6a88c3-b5fb-4385-9721-a6ff24f94303": {
+                    "scope": "APP",
+                    "name": "user post list",
+                    "screenId": "5e5a789c-d9ca-4867-80fc-df2a31f9e887"
+                }
+            },
+            "defaultDesignerDevice": "PHONE",
+            "defaultDesignerOrientation": "PORTRAIT",
+            "schemaVersion": 2,
+            "organization": null,
+            "__typename": "Project"
+        }
+    }
+}
