@@ -252,9 +252,9 @@
                 "autoIncrementVersion": true,
                 "ignoreNotchArea": false,
                 "notchAreaColor": null,
-                "androidVersionName": "3",
-                "androidVersionCode": 3,
-                "iosVersionNumber": "3",
+                "androidVersionName": "9",
+                "androidVersionCode": 9,
+                "iosVersionNumber": "9",
                 "iosBuildNumber": "1",
                 "firebaseAPIKey": "AIzaSyBdN2i6EyZYZJcQ8mtDaTyDDShxDLxSa0A",
                 "firebaseDatabaseURL": "https://buzzcut305-default-rtdb.firebaseio.com",
@@ -277,7 +277,8 @@
                 "permissions": {
                     "ios": {
                         "usageDescriptions": {
-                            "NSLocationWhenInUseUsageDescription": ""
+                            "NSCameraUsageDescription": "",
+                            "NSPhotoLibraryUsageDescription": ""
                         }
                     }
                 },
@@ -300,9 +301,9 @@
                 "autoIncrementVersion": true,
                 "ignoreNotchArea": false,
                 "notchAreaColor": null,
-                "androidVersionName": "3",
-                "androidVersionCode": 3,
-                "iosVersionNumber": "3",
+                "androidVersionName": "9",
+                "androidVersionCode": 9,
+                "iosVersionNumber": "9",
                 "iosBuildNumber": "1",
                 "firebaseAPIKey": "AIzaSyBdN2i6EyZYZJcQ8mtDaTyDDShxDLxSa0A",
                 "firebaseDatabaseURL": "https://buzzcut305-default-rtdb.firebaseio.com",
@@ -325,7 +326,8 @@
                 "permissions": {
                     "ios": {
                         "usageDescriptions": {
-                            "NSLocationWhenInUseUsageDescription": ""
+                            "NSCameraUsageDescription": "",
+                            "NSPhotoLibraryUsageDescription": ""
                         }
                     }
                 },

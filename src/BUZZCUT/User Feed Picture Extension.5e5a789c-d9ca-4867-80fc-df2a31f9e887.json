@@ -721,52 +721,6 @@
             "id": "75007ac5-8938-4bb5-9d7a-abb80bb21d81",
             "thunkableVersion": 426,
             "name": "User_post"
-        },
-        {
-            "type": "Image",
-            "translatedName": "Image",
-            "properties": {
-                "resizeMode": "stretch",
-                "Height": 78,
-                "Width": 375,
-                "Visible": true,
-                "X": 0,
-                "Y": 0,
-                "RelativeX": 0,
-                "RelativeY": 0,
-                "ResizeMode": "STRETCH",
-                "style": {
-                    "marginTop": 0,
-                    "marginBottom": 0,
-                    "marginLeft": 0,
-                    "marginRight": 0,
-                    "paddingTop": 0,
-                    "paddingBottom": 0,
-                    "paddingLeft": 0,
-                    "paddingRight": 0,
-                    "shadowColor": "rgba(0, 0, 0, 0)",
-                    "shadowOpacity": 0,
-                    "scaledShadowOpacity": 0,
-                    "shadowRadius": 0,
-                    "shadowOffset": {
-                        "width": 0,
-                        "height": 0
-                    },
-                    "position": "absolute",
-                    "left": "27.6%",
-                    "top": "2.278157796101949%",
-                    "display": "flex"
-                },
-                "capInsets": {},
-                "ParentId": "9c1ecdcc-ae5e-4f66-80ff-3750b25475f4",
-                "position": "absolute",
-                "edgeOffsets": 0
-            },
-            "children": [],
-            "id": "8babc83a-3d7f-4e8d-8cc9-c66ac847530e",
-            "thunkableVersion": 426,
-            "bindings": null,
-            "name": "Logo5"
         }
     ],
     "thunkableVersion": 426,
