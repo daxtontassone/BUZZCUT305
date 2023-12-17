@@ -252,9 +252,9 @@
                 "autoIncrementVersion": true,
                 "ignoreNotchArea": false,
                 "notchAreaColor": null,
-                "androidVersionName": "1",
-                "androidVersionCode": 1,
-                "iosVersionNumber": "1",
+                "androidVersionName": "3",
+                "androidVersionCode": 3,
+                "iosVersionNumber": "3",
                 "iosBuildNumber": "1",
                 "firebaseAPIKey": "AIzaSyBdN2i6EyZYZJcQ8mtDaTyDDShxDLxSa0A",
                 "firebaseDatabaseURL": "https://buzzcut305-default-rtdb.firebaseio.com",
@@ -276,7 +276,9 @@
                 "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {}
+                        "usageDescriptions": {
+                            "NSLocationWhenInUseUsageDescription": ""
+                        }
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -298,9 +300,9 @@
                 "autoIncrementVersion": true,
                 "ignoreNotchArea": false,
                 "notchAreaColor": null,
-                "androidVersionName": "1",
-                "androidVersionCode": 1,
-                "iosVersionNumber": "1",
+                "androidVersionName": "3",
+                "androidVersionCode": 3,
+                "iosVersionNumber": "3",
                 "iosBuildNumber": "1",
                 "firebaseAPIKey": "AIzaSyBdN2i6EyZYZJcQ8mtDaTyDDShxDLxSa0A",
                 "firebaseDatabaseURL": "https://buzzcut305-default-rtdb.firebaseio.com",
@@ -322,7 +324,9 @@
                 "cloudinaryAPISecret": "",
                 "permissions": {
                     "ios": {
-                        "usageDescriptions": {}
+                        "usageDescriptions": {
+                            "NSLocationWhenInUseUsageDescription": ""
+                        }
                     }
                 },
                 "googleMapAPIKeyAndroid": null,
@@ -556,8 +560,8 @@
                 },
                 "88a4ece4-a8c8-4db4-9be8-6236c3e45cef": {
                     "scope": "APP",
-                    "name": "post_list",
-                    "screenId": "8d4c257e-b01f-4e2c-afe4-74c1c7758e94"
+                    "name": "feed_list",
+                    "screenId": "568a054d-148b-4edb-8729-0b797142edfc"
                 },
                 "d9ae9023-5b1c-4483-aac3-a252dfbd37f1": {
                     "scope": "STORED",
