@@ -8,6 +8,18 @@
         "^[A-Za-z0-9]{26}$": {
           "type": "object",
           "properties": {
+            "barber": {
+              "type": "object",
+              "properties": {
+                "barbershopLocation": {
+                  "type": "string"
+                },
+                "barbershopName": {
+                  "type": "string"
+                }
+              },
+              "required": ["barbershopLocation","barbershopName"]
+            },
             "description": {
               "type": "string"
             },
