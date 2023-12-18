@@ -35,8 +35,8 @@
                     "createdAt": "2023-12-11T17:06:27.315Z",
                     "updatedAt": "2023-12-11T17:06:27.315Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9d0b906d0f0626e5bb13e/projects/65410ec55ab0476e329558fb/assets/657741931340ffeb9092c1b8?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231217%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231217T014623Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=104d51f13df346550b37fa350fae2d5603e409560dd30a98c104106218dfcdf8b79d8ef798048d5b73e9164c1b19c940c8cd6804067b8409afca2787ba75b2930c2eca877d5f16153f6346edbf454691bc18bd5ef8960b159760ab03c036262ef4504aa39033360cc92e958d09d9b216d37beefb1cb8a4fb2565877b615b4e23c5a14e01016748fa19c3b7dc99bf1d5f6146409e3a40382dbd4488322543d1f35d55b087416dff40bf23570ed35b9c5cc0e57b379d71a2743ef43f8acf7290fee5a281329d81f2cf0fbc0c3858699d1c5b74916676216c89579267f95200bfdbdf3b49165d308177fde487271126c6e34cc70889068bd4e4ee2c059e03d17971",
-                    "signedUrlExpirationTime": 1702950383964
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9d0b906d0f0626e5bb13e/projects/65410ec55ab0476e329558fb/assets/657741931340ffeb9092c1b8?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231218%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231218T024114Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=a4761c879cc7332f93a11c7151bc3383d22d49161321eda74ae881999340ff54f2405df2a50b39aff115a122d408bbe55574a23ebfeeed3b00ee6d3296ced0156aefb53f58441eb9220c8a70288a4c31f17251192b18136b83aec9c199af8c1527235fd977f9b774e7f460972998dd342124aaf7f711d6003eb7062b8721117d8585f8f12c7cb49003c78baa72ee6837bf64afa716b12a6a8d9930bdaf11f3d9805673e3ba98b91787b4fa448275bf47d5cf6fd102519ab57e6d3e1280565af42686e405eae0ae705fef71623835dd1ae748405ca5e3632ed3dc96d65e44cd8fae1b90a8be5dfa447cbb3b6e371e217ebff221faa0754a583e14cfa09c48848b",
+                    "signedUrlExpirationTime": 1703040074572
                 }
             },
             "backendUpgradeVersion": 23,
@@ -243,18 +243,33 @@
             },
             "figmaComponents": {},
             "description": null,
-            "icon": null,
+            "icon": "https://x.thunkable.com/project/65410ec55ab0476e329558fb/getasset/657faa59d5783d1179dd8012",
             "projectName": "Buzzcut",
             "settings": {
                 "teamId": null,
                 "appName": "Buzzcut",
-                "icon": null,
+                "icon": {
+                    "externalStorageType": "GCS",
+                    "_id": "657faa59d5783d1179dd8012",
+                    "size": "22258",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "play_store_512.png",
+                    "backendURI": "/project/65410ec55ab0476e329558fb/getasset/657faa59d5783d1179dd8012",
+                    "name": "play_store_512.png",
+                    "externalName": "users/64f9d0b906d0f0626e5bb13e/projects/65410ec55ab0476e329558fb/assets/657faa59d5783d1179dd8012",
+                    "createdAt": "2023-12-18T02:11:37.810Z",
+                    "updatedAt": "2023-12-18T02:11:37.810Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9d0b906d0f0626e5bb13e/projects/65410ec55ab0476e329558fb/assets/657faa59d5783d1179dd8012?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231218%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231218T021137Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=42861d2bd711d4ddab5a3dfd3663fd4607556dfc69e20c66901bab7927773b4b53a73a0373ea0b9892dce3451de7ef4c709753576a63c851df645d8ed3076a39b21159347dd75411125ddb002255db0b921f8e187297914d3fb648a0ca8c0589d5320274b419d6e615602845bd1e4ec76340781073647da412791e239176da802215401c0a4cdad668750d0f771af0806e7356693f9c48a835ddd45e0e20e61251c85d7c16ce17a6ee3a4c654a7d56f9b0dba76696088b4714a87930b9a6c249261dd0967b5e02496f2227e72965f31f1e83684b882bac8d31ac1684fd3426dae506bbb0392209b0f2d19e6923983a52f1026cf14ff94a2ed2b4d3ed0a420ab8",
+                    "signedUrlExpirationTime": 1703038297859
+                },
                 "autoIncrementVersion": true,
                 "ignoreNotchArea": false,
                 "notchAreaColor": null,
-                "androidVersionName": "9",
-                "androidVersionCode": 9,
-                "iosVersionNumber": "9",
+                "androidVersionName": "11",
+                "androidVersionCode": 11,
+                "iosVersionNumber": "11",
                 "iosBuildNumber": "1",
                 "firebaseAPIKey": "AIzaSyBdN2i6EyZYZJcQ8mtDaTyDDShxDLxSa0A",
                 "firebaseDatabaseURL": "https://buzzcut305-default-rtdb.firebaseio.com",
@@ -277,13 +292,12 @@
                 "permissions": {
                     "ios": {
                         "usageDescriptions": {
-                            "NSCameraUsageDescription": "",
-                            "NSPhotoLibraryUsageDescription": ""
+                            "NSLocationWhenInUseUsageDescription": ""
                         }
                     }
                 },
-                "googleMapAPIKeyAndroid": null,
-                "googleMapAPIKeyIOS": null,
+                "googleMapAPIKeyAndroid": "AIzaSyCkgh1zkVBgWsWtPP93RoaAcR51tv1wxsA",
+                "googleMapAPIKeyIOS": "AIzaSyCkgh1zkVBgWsWtPP93RoaAcR51tv1wxsA",
                 "googleOAuthiOSClientID": null,
                 "googleOAuthiOSURLScheme": null,
                 "googleOAuthWebClientID": null,
@@ -297,13 +311,28 @@
             "projectSettings": {
                 "teamId": null,
                 "appName": "Buzzcut",
-                "icon": null,
+                "icon": {
+                    "externalStorageType": "GCS",
+                    "_id": "657faa59d5783d1179dd8012",
+                    "size": "22258",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "play_store_512.png",
+                    "backendURI": "/project/65410ec55ab0476e329558fb/getasset/657faa59d5783d1179dd8012",
+                    "name": "play_store_512.png",
+                    "externalName": "users/64f9d0b906d0f0626e5bb13e/projects/65410ec55ab0476e329558fb/assets/657faa59d5783d1179dd8012",
+                    "createdAt": "2023-12-18T02:11:37.810Z",
+                    "updatedAt": "2023-12-18T02:11:37.810Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9d0b906d0f0626e5bb13e/projects/65410ec55ab0476e329558fb/assets/657faa59d5783d1179dd8012?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20231218%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231218T021137Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=42861d2bd711d4ddab5a3dfd3663fd4607556dfc69e20c66901bab7927773b4b53a73a0373ea0b9892dce3451de7ef4c709753576a63c851df645d8ed3076a39b21159347dd75411125ddb002255db0b921f8e187297914d3fb648a0ca8c0589d5320274b419d6e615602845bd1e4ec76340781073647da412791e239176da802215401c0a4cdad668750d0f771af0806e7356693f9c48a835ddd45e0e20e61251c85d7c16ce17a6ee3a4c654a7d56f9b0dba76696088b4714a87930b9a6c249261dd0967b5e02496f2227e72965f31f1e83684b882bac8d31ac1684fd3426dae506bbb0392209b0f2d19e6923983a52f1026cf14ff94a2ed2b4d3ed0a420ab8",
+                    "signedUrlExpirationTime": 1703038297859
+                },
                 "autoIncrementVersion": true,
                 "ignoreNotchArea": false,
                 "notchAreaColor": null,
-                "androidVersionName": "9",
-                "androidVersionCode": 9,
-                "iosVersionNumber": "9",
+                "androidVersionName": "11",
+                "androidVersionCode": 11,
+                "iosVersionNumber": "11",
                 "iosBuildNumber": "1",
                 "firebaseAPIKey": "AIzaSyBdN2i6EyZYZJcQ8mtDaTyDDShxDLxSa0A",
                 "firebaseDatabaseURL": "https://buzzcut305-default-rtdb.firebaseio.com",
@@ -326,13 +355,12 @@
                 "permissions": {
                     "ios": {
                         "usageDescriptions": {
-                            "NSCameraUsageDescription": "",
-                            "NSPhotoLibraryUsageDescription": ""
+                            "NSLocationWhenInUseUsageDescription": ""
                         }
                     }
                 },
-                "googleMapAPIKeyAndroid": null,
-                "googleMapAPIKeyIOS": null,
+                "googleMapAPIKeyAndroid": "AIzaSyCkgh1zkVBgWsWtPP93RoaAcR51tv1wxsA",
+                "googleMapAPIKeyIOS": "AIzaSyCkgh1zkVBgWsWtPP93RoaAcR51tv1wxsA",
                 "googleOAuthiOSClientID": null,
                 "googleOAuthiOSURLScheme": null,
                 "googleOAuthWebClientID": null,

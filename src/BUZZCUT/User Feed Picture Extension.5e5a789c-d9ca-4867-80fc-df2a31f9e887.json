@@ -510,9 +510,9 @@
                 "Width": 313,
                 "Visible": true,
                 "X": 32,
-                "Y": 480,
+                "Y": 504,
                 "RelativeX": 32,
-                "RelativeY": 480,
+                "RelativeY": 504,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(255, 255, 255, 1)",
@@ -553,7 +553,7 @@
                 },
                 "ParentId": "5e5a789c-d9ca-4867-80fc-df2a31f9e887",
                 "position": "absolute",
-                "edgeOffsets": 480,
+                "edgeOffsets": 504.99999999999994,
                 "children": "",
                 "Font": "Roboto"
             },
